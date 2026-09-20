@@ -1,0 +1,27 @@
+* { box-sizing: border-box; }
+html, body { margin: 0; min-height: 100%; font-family: system-ui, sans-serif; color: #172a32; }
+.layout { display: grid; grid-template-columns: minmax(250px, 320px) 1fr; min-height: 100vh; }
+.intro { padding: 2rem 1.5rem; background: #f6f3e9; }
+.eyebrow { margin: 0; font-size: .8rem; font-weight: 800; letter-spacing: .15em; text-transform: uppercase; color: #52686a; }
+h1 { margin: .45rem 0 1rem; line-height: 1.1; }
+.intro > p { line-height: 1.5; }
+.legend { display: grid; gap: .8rem; margin-top: 2rem; }
+.legend-item { display: flex; align-items: center; gap: .65rem; font-weight: 650; }
+.swatch { display: inline-block; flex: 0 0 14px; width: 14px; height: 14px; border-radius: 50%; border: 2px solid white; box-shadow: 0 0 0 1px #666; }
+.count { color: #59686d; font-weight: 400; }
+.status { color: #52686a; font-size: .9rem; }
+.map { min-height: 100vh; }
+.popup h2 { margin: 0 0 .4rem; font-size: 1.1rem; }
+.popup p { margin: .35rem 0; line-height: 1.4; }
+.popup .source { font-weight: 700; }
+.popup .review { margin-top: .65rem; white-space: pre-wrap; }
+.popup a { overflow-wrap: anywhere; }
+@media (max-width: 700px) {
+  .layout { display: block; }
+  .intro { padding: 1rem 1.25rem; }
+  h1 { margin-bottom: .35rem; }
+  .intro > p { margin: .5rem 0; }
+  .legend { display: flex; flex-wrap: wrap; gap: .5rem 1rem; margin-top: .8rem; font-size: .85rem; }
+  .map { min-height: 65vh; height: 65vh; }
+}
+
