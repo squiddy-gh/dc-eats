@@ -36,7 +36,7 @@ export function normalizeRow(row, source) {
   const latitude = Number(row.latitude);
   const longitude = Number(row.longitude);
   if (!row.latitude || !row.longitude || !Number.isFinite(latitude) || !Number.isFinite(longitude) ||
-      Math.abs(latitude) > 90 || Math.abs(longitude) > 180) return null;
+      latitude < 38 || latitude > 40 || longitude < -79 || longitude > -76) return null;
   return {
     latitude, longitude, source: source.label,
     name: row.name || row.restaurant_name || row.restaurant || 'Unnamed place',
@@ -118,7 +118,7 @@ async function loadMap() {
         bounds.extend(position);
         loaded++;
       }
-      summary.push(`${source.label}: ${loaded} mapped${skipped ? `, ${skipped} skipped (invalid coordinates)` : ''}`);
+      summary.push(`${source.label}: ${loaded} mapped${skipped ? `, ${skipped} skipped (invalid or out-of-area coordinates)` : ''}`);
     } catch (error) {
       summary.push(`${source.label}: could not load (${error.message})`);
     }

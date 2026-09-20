@@ -1,4 +1,4 @@
-﻿restaurant_name,address,latitude,longitude,website_address,short_description,Sun,Mon,Tue,Wed,Thu,Fri,Sat
+restaurant_name,address,latitude,longitude,website_address,short_description,Sun,Mon,Tue,Wed,Thu,Fri,Sat
 A&J Restaurant,"1319 Rockville Pike, Rockville, MD 20852",39.0685606,-77.1307071,https://www.aandjrestaurant.com/,"Taiwanese Noodles, buns, and soups",,,,,,,
 A&J Restaurant,"4316 Markham St, Annandale, VA 22003",38.830288,-77.200992,https://www.aandjrestaurant.com/,"Taiwanese Noodles, buns, and soups",,,,,,,
 Arepa Zone,"1121 14th St NW, Washington, DC 20005",38.904491,-77.031564,https://www.arepazone.com/,Venezuelan arepas,,,,,,,
@@ -89,7 +89,7 @@ Tempo Shack,"804 13th St NE, Washington, DC 20002",38.90062482,-76.98857123,http
 Thai Square,"3217 Columbia Pike, Arlington, VA 22204",38.86182,-77.09066,https://www.thaisquarerestaurant.com/,Thai,,,,,,,
 323 Dhaba Express,"20800 Pidgeon Hill Dr, Sterling, VA 20165",39.03608165,-77.40807936,https://323dhabaexpress.com/,Punjab Specialties,,,,,,,
 Trippy Tacos,"12134 Georgia Ave, Silver Spring, MD 20902",39.05411807,-77.05110542,https://trippytacos240.com/,Latin Street Food,,,,,,,
-Truong Tien,"6763 Wilson Blvd, Falls Church, VA 22044",38.87537707,77.15479369,https://edencenter.com/,Vietnamese,,,,,,,
+Truong Tien,"6763 Wilson Blvd, Falls Church, VA 22044",38.87537707,-77.15479369,https://edencenter.com/,Vietnamese,,,,,,,
 2Fifty,"414 K St NW, Washington, DC 20001",38.90236996,-77.01678155,https://www.2fiftybbq.com/,Texas BBQ,,,,,,,
 2Fifty,"4700 Riverdale Rd, Riverdale Park, MD 20737",38.96201,-76.93489,https://www.2fiftybbq.com/,Texas BBQ,,,,,,,
 Upstate FTW,"1314 U St NW, Washington, DC 20009",38.91683,-77.03059,https://www.upstateftw.com/,Upstate NY specialities,,,,,,,
@@ -106,3 +106,4 @@ Yu Noodles,"368 Elden St, Herndon, VA 20170",38.96759,-77.37403,https://www.yuno
 Yu Noodles,"1690 Anderson Rd #B, McLean, VA 22102",38.92252981,-77.20121371,https://www.yunoodles.com/,Spicy soup dumplings,,,,,,,
 Yu Noodles,"1065 5th St NW, Washington, DC 20001",38.90321,-77.01876,https://www.yunoodles.com/,Spicy soup dumplings,,,,,,,
 Z&Z Manoushe Bakery,"1111 Nelson St, Rockville, MD 20850",39.09188,-77.17427,https://www.zandzdc.com/,Middle-Eastern-style bakery,,,,,,,
+
