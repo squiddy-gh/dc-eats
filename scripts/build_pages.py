@@ -9,6 +9,9 @@ PUBLIC_FILES = (
     'data/washingtonian_best_cheap_eats_2026.csv',
     'data/washington_post_40_essential_dc_dishes_2026.csv',
     'data/michelin_dc_area_2026.csv',
+    'data/northernvamag_best_of_nova_2026.csv',
+    'data/nothernvamag_great_happy_hours_2026.csv',
+    'data/northernvamag_50_best_restaurants_2025.csv',
 )
 
 

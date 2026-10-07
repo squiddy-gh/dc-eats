@@ -3,6 +3,9 @@ export const sources = [
   { id: 'cheap', file: 'data/washingtonian_best_cheap_eats_2026.csv', label: 'Washingtonian Cheap Eats', color: '#236b91', icon: '🍴' },
   { id: 'post', file: 'data/washington_post_40_essential_dc_dishes_2026.csv', label: 'Washington Post Essential Dishes', color: '#7852a0', icon: '◉' },
   { id: 'michelin', file: 'data/michelin_dc_area_2026.csv', label: 'Michelin Guide', color: '#b12e53', icon: 'M' },
+  { id: 'nova', file: 'data/northernvamag_best_of_nova_2026.csv', label: 'Best of NoVA 2026', color: '#27805c', icon: 'N' },
+  { id: 'happy', file: 'data/nothernvamag_great_happy_hours_2026.csv', label: 'NoVA Happy Hours 2026', color: '#a66519', icon: '🍸🍴' },
+  { id: 'top50', file: 'data/northernvamag_50_best_restaurants_2025.csv', label: 'NoVA Top 50 2025', color: '#526b30', icon: '50' },
 ];
 export const days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday'];
 export function parseCsv(text) {
@@ -27,17 +30,19 @@ export function normalizeRow(row, source) {
   if (!row.latitude || !row.longitude || !Number.isFinite(latitude) || !Number.isFinite(longitude) || latitude < 38 || latitude > 40 || longitude < -79 || longitude > -76) return null;
   return { latitude, longitude, source: source.label, sourceId: source.id,
     name: row.restaurant_name || row.name || row.restaurant || 'Unnamed restaurant',
+    position: row.position || '', eatThis: row.eat_this || '', businessStatus: row.business_status || '',
     category: row.category || '', dish: row.dish || '', placement: row.place || '',
     address: row.address || '', website: row.website || row.website_address || '',
     cuisine: row.cuisine || '', cuisines: (row.cuisine || '').split(',').map(s => s.trim()).filter(Boolean),
     stars: /^[0-3]$/.test(String(row.michelin_stars ?? '').trim()) ? Number(row.michelin_stars) : null,
     phone: row.phone || row.telephone || '', narrative: row.narrative || row.review_text || row.short_description || '',
+    hoursType: row.hours_type === 'happy_hour' ? 'happy_hour' : 'opening', menuUrl: row.menu_url || '',
     hours: days.map(day => row[`${day}_hours`] || ''), hoursNotes: row.hours_notes || '' };
 }
 export function parseHours(value) {
   if (!value?.trim()) return null;
   const text = value.trim().replace(/[–—]/g, '-');
-  if (/^closed$/i.test(text)) return [];
+  if (/^(closed|not offered)$/i.test(text)) return [];
   if (/^(?:open\s*)?24\s*(?:hours?|hrs?)$/i.test(text)) return [[0, 1440]];
   const clock = token => {
     const m = token.trim().match(/^(\d{1,2})(?::(\d{2}))?\s*(AM|PM)?$/i);
@@ -62,6 +67,7 @@ export function localTime(date = new Date()) {
   return { day: days.indexOf(p.weekday.toLowerCase()), minute: Number(p.hour) * 60 + Number(p.minute) };
 }
 export function openingStatus(place, date = new Date()) {
+  if (place.businessStatus === 'permanently_closed' || place.businessStatus === 'private_events_only') return 'closed';
   const { day, minute } = localTime(date), today = parseHours(place.hours[day]), previous = parseHours(place.hours[(day + 6) % 7]);
   if (today?.some(([a, b]) => minute >= a && minute < b) || previous?.some(([a, b]) => b > 1440 && minute + 1440 >= a && minute + 1440 < b)) return 'open';
   if (today === null || (minute < 720 && previous === null)) return 'unknown';
@@ -71,7 +77,7 @@ export function matchesFilters(p, f, date = new Date()) {
   return (f.list === 'all' || p.sourceId === f.list) && (!f.cuisine || p.cuisines.includes(f.cuisine)) &&
     (!f.category || p.category === f.category) && (!f.placement || p.placement === f.placement) &&
     (f.stars === '' || String(p.stars) === f.stars) && (!f.open || openingStatus(p, date) === 'open') &&
-    (!f.search || `${p.name} ${p.address} ${p.dish}`.toLowerCase().includes(f.search.toLowerCase()));
+    (!f.search || `${p.name} ${p.address} ${p.dish} ${p.eatThis || ''}`.toLowerCase().includes(f.search.toLowerCase()));
 }
 export function groupPlaces(places) {
   const groups = new Map();
@@ -103,25 +109,29 @@ export function popup(group) {
   const address = document.createElement('p'); link(address, group.address || 'Google Maps ↗', googleMapsUrl(group)); root.append(address);
   for (const p of group.entries) {
     const section = document.createElement('section'); section.className = 'popup-entry'; detail(section, '', p.source, 'source');
-    detail(section, 'Cuisine', p.cuisine);
+    detail(section, 'Cuisine', p.cuisine); detail(section, 'Position', p.position);
     if (p.sourceId === 'michelin') detail(section, 'Michelin', p.stars === null ? 'Rating unavailable' : p.stars === 0 ? 'Selected · 0 stars' : `${p.stars} star${p.stars === 1 ? '' : 's'}`);
-    detail(section, 'Category', p.category); detail(section, 'Award', p.placement); detail(section, 'Dish', p.dish); detail(section, '', p.narrative, 'review');
-    const status = openingStatus(p); detail(section, '', status === 'unknown' ? 'Hours unavailable for this time' : status === 'open' ? 'Open now · Eastern time' : 'Closed now · Eastern time', `hours-state ${status}`);
-    detail(section, 'Today', p.hours[localTime().day] || 'Not published');
-    const hours = document.createElement('details'), summary = document.createElement('summary'); summary.textContent = 'Weekly hours'; hours.append(summary);
+    detail(section, 'Category', p.category); detail(section, 'Award', p.placement); detail(section, 'Dish', p.dish);
+    const status = openingStatus(p), happy = p.hoursType === 'happy_hour';
+    detail(section, '', p.businessStatus === 'permanently_closed' ? 'Permanently closed · historical selection' : p.businessStatus === 'private_events_only' ? 'Private events by appointment only' : status === 'unknown' ? (happy ? 'Happy-hour availability unverified for this time' : 'Hours unavailable for this time') : happy ? (status === 'open' ? 'Happy hour now · Eastern time' : 'Happy hour not offered now · Eastern time') : status === 'open' ? 'Open now · Eastern time' : 'Closed now · Eastern time', `hours-state ${status}`);
+    detail(section, p.hoursType === 'happy_hour' ? 'Happy hour today' : 'Today', p.hours[localTime().day] || 'Not published');
+    const hours = document.createElement('details'), summary = document.createElement('summary'); summary.textContent = p.hoursType === 'happy_hour' ? 'Weekly happy hours' : 'Weekly hours'; hours.append(summary);
     const dl = document.createElement('dl'); dl.className = 'weekly-hours';
     days.forEach((day, i) => { const dt = document.createElement('dt'), dd = document.createElement('dd'); dt.textContent = day[0].toUpperCase() + day.slice(1); dd.textContent = p.hours[i] || 'Not published'; dl.append(dt, dd); });
     hours.append(dl); detail(hours, '', p.hoursNotes, 'hours-note'); section.append(hours);
     const links = document.createElement('p'); links.className = 'popup-links'; if (p.website) link(links, 'Website ↗', p.website);
+    if (p.menuUrl) link(links, 'Happy-hour menu ↗', p.menuUrl);
     if (p.phone && /^\+?[\d\s().-]+$/.test(p.phone)) { const a = document.createElement('a'); a.href = `tel:${p.phone.replace(/[^+\d]/g, '')}`; a.textContent = p.phone; links.append(a); }
-    section.append(links); root.append(section);
+    section.append(links);
+    detail(section, 'Eat this', p.eatThis, 'eat-this');
+    detail(section, '', p.narrative, 'review'); root.append(section);
   }
   return root;
 }
 function markerIcon(g) {
   const starred = g.entries.find(e => e.sourceId === 'michelin' && e.stars > 0), p = starred || g.entries[0], s = sources.find(s => s.id === p.sourceId);
   return L.divIcon({ className: 'restaurant-icon', iconSize: [34, 40], iconAnchor: [17, 38], popupAnchor: [0, -32],
-    html: `<span class="map-pin${new Set(g.entries.map(e => e.sourceId)).size > 1 ? ' multiple' : ''}" style="--pin-color:${s.color}"><span>${starred ? '★' : s.icon}</span>${starred ? `<b class="star-count">${starred.stars}</b>` : ''}</span>` });
+    html: `<span class="map-pin${p.sourceId === 'happy' ? ' happy-pin' : ''}${new Set(g.entries.map(e => e.sourceId)).size > 1 ? ' multiple' : ''}" style="--pin-color:${s.color}"><span>${starred ? '★' : s.icon}</span>${starred ? `<b class="star-count">${starred.stars}</b>` : ''}</span>` });
 }
 export async function loadMap() {
   const status = document.getElementById('status'), notice = document.getElementById('notice');
@@ -138,13 +148,15 @@ export async function loadMap() {
   let selected = 'all', locating = false, userLocation;
   const filters = () => ({ list: selected, ...Object.fromEntries(Object.entries(fields).map(([k, input]) => [k, k === 'open' ? input.checked : input.value])) });
   const render = (fit = false) => {
+    document.getElementById('open-label').textContent = selected === 'happy' ? 'Happy hour now' : selected === 'all' ? 'Open / happy hour now' : 'Open now';
+    document.querySelector('.hours-help').textContent = selected === 'happy' ? 'Based on happy-hour offers, not opening hours. Food and drink windows may differ; see each venue’s notes. Holiday offers may differ.' : selected === 'all' ? 'Uses opening hours for dining guides and happy-hour offer times for the happy-hour list. Holiday schedules may differ.' : 'Based on published weekly hours. Holiday schedules and sold-out closures may differ.';
     const now = new Date(), groups = groupPlaces(places.filter(p => matchesFilters(p, filters(), now))); layer.clearLayers(); const bounds = L.latLngBounds();
     groups.forEach(g => { const m = L.marker([g.latitude, g.longitude], { icon: markerIcon(g), title: g.name, alt: g.name, keyboard: true }); m.bindPopup(() => popup(g), { maxWidth: 370, maxHeight: 420 }).addTo(layer); bounds.extend(m.getLatLng()); });
     if (fit && bounds.isValid()) map.fitBounds(bounds.pad(.08), { maxZoom: 14 });
     const time = new Intl.DateTimeFormat('en-US', { timeZone: 'America/New_York', hour: 'numeric', minute: '2-digit', timeZoneName: 'short' }).format(now);
     const unknown = places.filter(p => (selected === 'all' || p.sourceId === selected) && openingStatus(p, now) === 'unknown').length;
     status.textContent = `${groups.length} restaurant location${groups.length === 1 ? '' : 's'} shown · ${time}`;
-    notice.textContent = [!groups.length ? 'No matches. Change or clear your filters.' : '', unknown ? `${unknown} entries have unknown hours and are excluded from Open now.` : '', selected === 'loudoun' && !places.some(p => p.sourceId === 'loudoun' && p.hours.some(Boolean)) ? 'Best of Loudoun has no published hours in this dataset.' : '', skipped ? `${skipped} entries have missing or out-of-area coordinates.` : '', errors.length ? `Could not load: ${errors.join(', ')}. Reload to try again.` : ''].filter(Boolean).join(' ');
+    notice.textContent = [!groups.length ? 'No matches. Change or clear your filters.' : '', unknown ? `${unknown} entries have unknown hours and are excluded from the time filter.` : '', selected === 'loudoun' && !places.some(p => p.sourceId === 'loudoun' && p.hours.some(Boolean)) ? 'Best of Loudoun has no published hours in this dataset.' : '', skipped ? `${skipped} entries have missing or out-of-area coordinates.` : '', errors.length ? `Could not load: ${errors.join(', ')}. Reload to try again.` : ''].filter(Boolean).join(' ');
     document.getElementById('legend').replaceChildren(...sources.filter(s => selected === 'all' || s.id === selected).map(s => { const item = document.createElement('div'); item.className = 'legend-item'; const dot = document.createElement('span'); dot.className = 'swatch'; dot.style.backgroundColor = s.color; item.append(dot, document.createTextNode(`${s.icon} ${s.label}`)); return item; }));
   };
   const populate = () => {
@@ -152,7 +164,7 @@ export async function loadMap() {
     for (const key of ['cuisine', 'category', 'placement', 'stars']) {
       const options = [...new Set(choices[key].filter(Boolean))].sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
       fields[key].replaceChildren(new Option('Any', ''), ...options.map(v => new Option(key === 'stars' ? v === '0' ? '0 · Michelin selected' : `${v} star${v === '1' ? '' : 's'}` : v, v)));
-      document.getElementById(`${key}-field`).hidden = !options.length || (key === 'stars' && selected !== 'michelin') || (['placement', 'category'].includes(key) && selected !== 'loudoun'); fields[key].value = '';
+      document.getElementById(`${key}-field`).hidden = !options.length || (key === 'stars' && selected !== 'michelin') || (['placement', 'category'].includes(key) && !(key === 'category' ? ['loudoun', 'nova', 'happy', 'top50'] : ['loudoun', 'nova']).includes(selected)); fields[key].value = '';
     }
   };
   const menu = document.getElementById('list-menu'), button = document.getElementById('list-button');

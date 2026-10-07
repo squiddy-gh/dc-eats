@@ -22,7 +22,7 @@ h1 { font-family: Georgia, serif; font-weight: 500; font-size: 2.5rem; margin: 1
 .field { display: grid; gap: .35rem; font-size: .8rem; font-weight: 650; }
 .field input, .field select { width: 100%; min-height: 42px; border: 1px solid #bac3b7; border-radius: 7px; padding: .55rem; background: white; color: #223c36; font-weight: 400; }
 .open-filter { display: flex; align-items: center; gap: .5rem; font-weight: 650; font-size: .88rem; }
-.open-filter input { width: 18px; height: 18px; accent-color: #223c36; }.open-filter span { margin-left: auto; font-size: .72rem; color: #637068; font-weight: 400; }
+.open-filter input { width: 18px; height: 18px; accent-color: #223c36; }.open-filter span:not(#open-label) { margin-left: auto; font-size: .72rem; color: #637068; font-weight: 400; }
 .hours-help, .marker-help, .notice { font-size: .76rem; color: #637068; line-height: 1.5; margin: 0; }
 .text-button { justify-self: start; border: none; background: transparent; text-decoration: underline; padding: .2rem 0; font-size: .8rem; }
 .legend { display: grid; gap: .5rem; margin: 1rem 0; }.legend-item { display: flex; align-items: center; gap: .6rem; font-size: .8rem; }.swatch { flex: 0 0 12px; height: 12px; border-radius: 50%; }
@@ -35,3 +35,8 @@ h1 { font-family: Georgia, serif; font-weight: 500; font-size: 2.5rem; margin: 1
 .popup-links { display: flex; flex-wrap: wrap; gap: .8rem; }.hours-state { font-weight: 650; }.hours-state.open { color: #247046; }.hours-note { font-size: .75rem; color: #637068; }
 .weekly-hours { display: grid; grid-template-columns: auto 1fr; gap: .3rem .8rem; font-size: .75rem; }.weekly-hours dd { margin: 0; }.popup summary { cursor: pointer; margin: .5rem 0; }
 @media (max-width: 700px) { .layout { display: flex; flex-direction: column; }.intro { height: auto; max-height: 48vh; padding: 1rem 1.25rem; }h1 { font-size: 1.8rem; margin: .5rem 0; }h1 br { display: none; }.description { margin: .4rem 0; }.actions { margin-top: .7rem; }.map { height: 65vh; min-height: 400px; }.legend { grid-template-columns: 1fr 1fr; } }
+
+.map-pin.happy-pin > span { font-size: 13px; white-space: nowrap; }
+
+.popup .eat-this { background: #fff4d6; border-left: 4px solid #a66519; padding: 10px 12px; border-radius: 4px; line-height: 1.5; }
+.popup .eat-this strong { color: #71420f; }

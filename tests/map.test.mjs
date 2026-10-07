@@ -46,7 +46,7 @@ test('same-location groups retain dishes and suppress only exact duplicates', ()
   assert.equal(groups.length,1); assert.equal(groups[0].entries.length,2);
   assert.match(googleMapsUrl(p),/Caf%C3%A9/);
 });
-test('all four current datasets load, and every published schedule is understood', () => {
+test('all seven current datasets load, and every published schedule is understood', () => {
   for (const source of sources) {
     const rows = parseCsv(readFileSync(new URL(`../${source.file}`,import.meta.url),'utf8'));
     assert.ok(rows.length > 0,source.label);
@@ -55,4 +55,55 @@ test('all four current datasets load, and every published schedule is understood
     for (const p of places) for (const h of p.hours) if (h) assert.notEqual(parseHours(h),null,`${p.name}: ${h}`);
     if (source.id === 'michelin') { assert.equal(rows.length,110); assert.ok(places.some(p => p.name === 'The Inn at Little Washington' && p.stars === 2)); }
   }
+});
+
+
+test('Best of NoVA preserves all awards and supports category, placement, and open filters', () => {
+ const source=sources.find(s=>s.id==='nova');
+ const rows=parseCsv(readFileSync(new URL(`../${source.file}`,import.meta.url),'utf8'));
+ assert.equal(rows.length,125);
+ assert.equal(new Set(rows.map(r=>[r.category,r.place,r.restaurant_name].join('|'))).size,61);
+ assert.equal(new Set(rows.map(r=>r.category)).size,31);
+ assert.ok(rows.some(r=>r.restaurant_name==='Chloez Café'));
+ const p=rows.map(r=>normalizeRow(r,source)).find(p=>p && p.category==='Bagels' && p.placement==='Winner' && p.hours.every(Boolean));
+ assert.equal(matchesFilters(p,{...filters,list:'nova',category:'Bagels',placement:'Winner',open:true},new Date('2026-10-07T14:00:00Z')),true);
+ assert.equal(matchesFilters(p,{...filters,placement:'Runner-up'}),false);
+});
+
+
+test('happy-hour list retains each venue and separate menu links', () => {
+ const source=sources.find(s=>s.id==='happy');
+ const rows=parseCsv(readFileSync(new URL(`../${source.file}`,import.meta.url),'utf8'));
+ assert.equal(rows.length,58);assert.equal(new Set(rows.map(r=>r.restaurant_name)).size,58);
+ assert.ok(rows.every(r=>r.hours_type==='happy_hour' && r.menu_url && r.narrative));
+ const open=normalizeRow(rows.find(r=>r.restaurant_name==='Open Road'),source);
+ const heirloom=normalizeRow(rows.find(r=>r.restaurant_name==='Heirloom'),source);
+ assert.equal(open.hoursType,'happy_hour');assert.ok(open.menuUrl);
+ assert.equal(openingStatus(open,new Date('2026-10-07T19:30:00Z')),'open');
+ assert.equal(openingStatus(heirloom,new Date('2026-10-07T19:30:00Z')),'closed');
+ assert.equal(openingStatus(open,new Date('2026-10-07T22:30:00Z')),'closed');
+ assert.deepEqual(parseHours('Not offered'),[]);
+ const lazy=normalizeRow(rows.find(r=>r.restaurant_name==='Lazy Dog'),source);
+ assert.equal(openingStatus(lazy,new Date('2026-10-08T03:00:00Z')),'open');
+ assert.equal(openingStatus(lazy,new Date('2026-10-08T04:00:00Z')),'closed');
+ const ometeo={hours:days.map(()=> 'Not offered')};ometeo.hours[6]='11:00-21:30';
+ assert.equal(openingStatus(ometeo,new Date('2026-10-11T12:00:00Z')),'closed');
+});
+
+
+test('NoVA Top 50 preserves ranks, branches, cuisine and dish recommendations', () => {
+ const source=sources.find(s=>s.id==='top50');
+ const rows=parseCsv(readFileSync(new URL(`../${source.file}`,import.meta.url),'utf8'));
+ assert.equal(rows.length,53);assert.equal(new Set(rows.map(r=>r.restaurant_name)).size,50);
+ assert.deepEqual(rows.filter(r=>r.position).map(r=>r.position),Array.from({length:10},(_,i)=>`No. ${i+1}`));
+ assert.ok(rows.every(r=>r.eat_this && r.cuisine && r.narrative && r.hours_type==='opening'));
+ const celebration=normalizeRow(rows.find(r=>r.restaurant_name==='Celebration by Rupa Vira'),source);
+ assert.equal(celebration.cuisine,'Modern Indian');assert.equal(celebration.position,'No. 9');
+ assert.ok(matchesFilters(celebration,{list:'top50',cuisine:'Modern Indian',category:'',placement:'',stars:'',open:false,search:'kale'}));
+ for (const name of ['Alias','Carmello’s']) {
+  const r=rows.find(r=>r.restaurant_name===name);
+  const p=normalizeRow({...r,latitude:'38.8',longitude:'-77.5'},source);
+  p.hours=days.map(()=> '24 hours');
+  assert.equal(openingStatus(p,new Date('2026-10-07T23:00:00Z')),'closed');
+ }
 });
