@@ -13,3 +13,16 @@ Pins use each guide's color and symbol. Michelin-starred restaurants have a numb
 Rows with missing, invalid, or out-of-area coordinates (outside 38–40° N, 79–76° W) are skipped and counted. CSV failures are shown. An internet connection is needed for Leaflet and OpenStreetMap tiles; Leaflet CSS is local and map attribution remains visible.
 
 Run logic tests with `node --test tests/map.test.mjs` (Node 22.7 or newer).
+
+## Trial deployment with GitHub Pages
+
+The workflow in `.github/workflows/pages-trial.yml` deploys only when you manually run it. It tests the map and CSV data, then publishes the app assets and four restaurant CSVs. Research scripts, notes, and geocoding caches are excluded.
+
+1. Commit and push the workflow, `scripts/build_pages.py`, `tests/map.test.mjs`, and the current app and all four CSVs to `main`. Include `data/michelin_dc_area_2026.csv` if it has not yet been committed.
+2. On GitHub, open **Settings → Pages** and choose **GitHub Actions** as the publishing source. See [GitHub's publishing-source instructions](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
+3. Open **Actions → Trial deployment to GitHub Pages → Run workflow**, choose `main`, and run it.
+4. When it succeeds, open the URL shown by the deployment. The expected project address is https://squiddy-gh.github.io/dc-eats/.
+
+Each manual run updates this repository's Pages site at the same address; it does not create a separate preview per run. Pushing changes alone does not deploy. No personal access token or additional secret is needed; the workflow uses GitHub's built-in permissions.
+
+For a local check of exactly what will be published, run `python scripts/build_pages.py --output _site`, then `python -m http.server 8000 --directory _site`. The output folder must be new or empty. On subsequent checks, use another empty output folder. GitHub runners start with a fresh checkout for each deployment.
