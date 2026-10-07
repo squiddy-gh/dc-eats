@@ -1,25 +1,36 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>DC Eats Map</title>
-  <link rel="stylesheet" href="vendor/leaflet.css">
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DC Eats · Explore the guides</title>
+  <link rel="stylesheet" href="vendor/leaflet.css"><link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <main class="layout">
-    <header class="intro">
-      <p class="eyebrow">DC Eats</p>
-      <h1>Explore the lists</h1>
-      <p>Restaurants and dishes from Loudoun County and the Washington area. Select a marker to see its details.</p>
+    <aside class="intro" aria-label="Restaurant filters">
+      <p class="eyebrow">DC Eats / Dining guides</p><h1>Find your next <br>good meal.</h1>
+      <p class="description">Four local guides. One map. Choose a list, then find a restaurant that fits.</p>
+      <div class="actions"><button id="locate" type="button">◎ Locate me</button><button id="fit" type="button">View results</button></div>
+      <p id="location-status" class="location-status" role="status"></p>
+      <button id="list-button" class="list-button" type="button" aria-expanded="false" aria-controls="list-menu">List · All lists ▾</button>
+      <fieldset id="list-menu" class="list-menu" hidden aria-label="Select a dining guide"></fieldset>
+      <div class="filters">
+        <label class="field">Search restaurants<input id="search" type="search" placeholder="Name, neighborhood, or dish"></label>
+        <label id="cuisine-field" class="field" hidden>Cuisine<select id="cuisine"></select></label>
+        <label id="stars-field" class="field" hidden>Michelin stars<select id="stars"></select></label>
+        <label id="category-field" class="field" hidden>Category<select id="category"></select></label>
+        <label id="placement-field" class="field" hidden>Award<select id="placement"></select></label>
+        <label class="open-filter"><input id="open" type="checkbox">Open now <span>Eastern time</span></label>
+        <p class="hours-help">Based on published weekly hours. Holiday schedules and sold-out closures may differ.</p>
+        <button id="reset" type="button" class="text-button">Clear filters</button>
+      </div>
       <div id="legend" class="legend" aria-label="Map legend"></div>
-      <p id="status" class="status" role="status">Loading restaurants…</p>
-    </header>
+      <p class="marker-help">★ Numbered stars mark Michelin-starred restaurants. Double borders indicate multiple lists.</p>
+      <p id="status" class="status" role="status">Loading restaurants…</p><p id="notice" class="notice" role="status"></p>
+    </aside>
     <div id="map" class="map" aria-label="Interactive restaurant map"></div>
   </main>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
   <script type="module" src="map.js"></script>
 </body>
 </html>
-

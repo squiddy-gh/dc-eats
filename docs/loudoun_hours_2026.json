@@ -1,0 +1,2437 @@
+{
+  "checked_on": "2026-10-06",
+  "records": [
+    {
+      "name": "Monk’s BBQ",
+      "address": "251 N 21st St, Purcellville, VA 20132",
+      "hours": [
+        "17:00-21:00",
+        "11:30-22:00",
+        "11:30-22:00",
+        "11:30-22:00",
+        "11:30-00:00 (+1 day)",
+        "11:30-00:00 (+1 day)",
+        "11:30-21:00"
+      ],
+      "hours_source_url": "https://monksq.com/",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "ResQ BBQ",
+      "address": "528 B E Market St, Leesburg, VA 20176",
+      "hours": [
+        "11:00-21:00",
+        "11:00-21:00",
+        "11:00-21:00",
+        "11:00-21:00",
+        "11:00-21:00",
+        "11:00-21:00",
+        "11:00-21:00"
+      ],
+      "hours_source_url": "https://resq-bbq.com/",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Hammerdown Barbecue",
+      "address": "41153 Little River Tpke, Aldie, VA 20105",
+      "hours": [
+        "",
+        "",
+        "11:00-19:00",
+        "11:00-19:00",
+        "11:00-19:00",
+        "11:00-19:00",
+        "11:00-19:00"
+      ],
+      "hours_source_url": "https://hammerdownbbq.com/",
+      "hours_notes": "May close early when sold out. Monday and Tuesday are not explicitly specified.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Smokin Willy BBQ and Grill",
+      "address": "201 N Maple Ave, Purcellville, VA 20132",
+      "hours": [
+        "11:00-20:30",
+        "11:00-20:30",
+        "11:00-20:30",
+        "11:00-20:30",
+        "11:00-21:00",
+        "11:00-21:00",
+        "11:00-20:30"
+      ],
+      "hours_source_url": "https://www.smokinwilly.com/contact-us.php",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Mom's Apple Pie Company",
+      "address": "220 Loudoun St, Leesburg, VA 20175",
+      "hours": [
+        "11:00-18:00",
+        "11:00-18:00",
+        "11:00-18:00",
+        "11:00-18:00",
+        "11:00-18:00",
+        "11:00-18:00",
+        "11:00-17:00"
+      ],
+      "hours_source_url": "https://www.momsapplepieco.com/locations",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Mom's Apple Pie Company",
+      "address": "220 Loudoun St, Leesburg, Virginia 20175",
+      "hours": [
+        "11:00-18:00",
+        "11:00-18:00",
+        "11:00-18:00",
+        "11:00-18:00",
+        "11:00-18:00",
+        "11:00-18:00",
+        "11:00-17:00"
+      ],
+      "hours_source_url": "https://www.momsapplepieco.com/locations",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Mom's Apple Pie Company",
+      "address": "35246 Leesburg Pike, Round Hill, Virginia 20141-3200",
+      "hours": [
+        "11:00-18:00",
+        "11:00-18:00",
+        "11:00-18:00",
+        "11:00-18:00",
+        "11:00-18:00",
+        "11:00-18:00",
+        "11:00-17:00"
+      ],
+      "hours_source_url": "https://www.momsapplepieco.com/locations",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Dolce & Ciabatta",
+      "address": "9 H Catoctin Cir, Leesburg, VA 20175",
+      "hours": [
+        "07:00-15:00",
+        "07:00-15:00",
+        "07:00-15:00",
+        "07:00-15:00",
+        "07:00-15:00",
+        "08:00-17:00",
+        "08:00-15:00"
+      ],
+      "hours_source_url": "https://www.dolceciabatta.com/",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "South Street Under",
+      "address": "203 Harrison St, Leesburg, VA 20175",
+      "hours": [
+        "07:00-17:00",
+        "07:00-17:00",
+        "07:00-17:00",
+        "07:00-17:00",
+        "07:00-17:00",
+        "08:00-17:00",
+        "08:00-17:00"
+      ],
+      "hours_source_url": "https://www.southstreetunder.com/",
+      "hours_notes": "Uses bakery/deli hours at top of page; footer and structured data describe Tuscarora Mill and are not used.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Brew Birds",
+      "address": "42020 Village Center Plz, Aldie, VA 20105",
+      "hours": [
+        "08:00-19:00",
+        "08:00-19:00",
+        "08:00-19:00",
+        "08:00-19:00",
+        "08:00-21:00",
+        "09:00-21:00",
+        "09:00-16:00"
+      ],
+      "hours_source_url": "https://www.brewbirdscafe.com/",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Brew Birds",
+      "address": "42020 Village Center Plz Ste 130, Aldie, VA 20105",
+      "hours": [
+        "08:00-19:00",
+        "08:00-19:00",
+        "08:00-19:00",
+        "08:00-19:00",
+        "08:00-21:00",
+        "09:00-21:00",
+        "09:00-16:00"
+      ],
+      "hours_source_url": "https://www.brewbirdscafe.com/",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Blue Ridge Grill",
+      "address": "44065 Ashburn Shopping Plz, Ashburn, VA 20147",
+      "hours": [
+        "11:00-21:30",
+        "11:00-21:30",
+        "11:00-21:30",
+        "11:00-21:30",
+        "11:00-22:00",
+        "11:00-22:00",
+        "10:00-21:00"
+      ],
+      "hours_source_url": "https://brgrill.com/ashburn/",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Blue Ridge Grill",
+      "address": "44065 Ashburn Shopping Plaza, Ashburn, VA 20147",
+      "hours": [
+        "11:00-21:30",
+        "11:00-21:30",
+        "11:00-21:30",
+        "11:00-21:30",
+        "11:00-22:00",
+        "11:00-22:00",
+        "10:00-21:00"
+      ],
+      "hours_source_url": "https://brgrill.com/ashburn/",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Blue Ridge Grill",
+      "address": "22865 Brambleton Plaza Brambleton, VA 20148",
+      "hours": [
+        "11:00-21:30",
+        "11:00-21:30",
+        "11:00-21:30",
+        "11:00-21:30",
+        "11:00-22:00",
+        "11:00-22:00",
+        "10:00-21:00"
+      ],
+      "hours_source_url": "https://brgrill.com/brambleton/",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Blue Ridge Grill",
+      "address": "955 Edwards Ferry Rd, Leesburg, VA 20176",
+      "hours": [
+        "11:00-21:30",
+        "11:00-21:30",
+        "11:00-21:30",
+        "11:00-21:30",
+        "11:00-22:00",
+        "11:00-22:00",
+        "10:00-21:00"
+      ],
+      "hours_source_url": "https://brgrill.com/leesburg/",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Buford's Biscuits",
+      "address": "7 W Market St, Leesburg, VA 20176",
+      "hours": [
+        "",
+        "",
+        "",
+        "08:00-14:00",
+        "08:00-14:00",
+        "08:00-14:00",
+        "09:00-14:00"
+      ],
+      "hours_source_url": "https://www.bufordsbiscuits.com/location/bufords-biscuits/",
+      "hours_notes": "Only Thursday through Sunday are explicitly published; other days remain unknown.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Magnolias at the Mill",
+      "address": "198 N 21st St, Purcellville, VA 20132",
+      "hours": [
+        "11:00-21:00",
+        "11:00-21:00",
+        "11:00-21:00",
+        "11:00-21:00",
+        "11:00-22:00",
+        "11:00-22:00",
+        "11:00-21:00"
+      ],
+      "hours_source_url": "https://www.magnoliasmill.com/",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Tuscarora Mill (Tuskie's)",
+      "address": "203 Harrison St, Leesburg, VA 20175",
+      "hours": [
+        "11:00-22:00",
+        "11:00-22:00",
+        "11:00-22:00",
+        "11:00-22:00",
+        "11:00-23:00",
+        "11:00-23:00",
+        "10:00-21:00"
+      ],
+      "hours_source_url": "https://www.tuskies.com/",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Ahso",
+      "address": "22855 Brambleton Plaza Suite 108, Brambleton, VA 20148",
+      "hours": [
+        "16:00-21:00",
+        "16:00-21:00",
+        "16:00-21:00",
+        "16:00-21:00",
+        "16:00-22:00",
+        "11:00-14:30; 17:00-22:00",
+        "11:00-14:30; 17:00-21:00"
+      ],
+      "hours_source_url": "https://www.ahsoresto.com/about",
+      "hours_notes": "Includes weekday happy hour 16:00-18:00 and dinner 17:00 onward; weekend brunch and dinner are separate.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Ahso",
+      "address": "22855 Brambleton Plz Suite 108, Brambleton, VA 20148",
+      "hours": [
+        "16:00-21:00",
+        "16:00-21:00",
+        "16:00-21:00",
+        "16:00-21:00",
+        "16:00-22:00",
+        "11:00-14:30; 17:00-22:00",
+        "11:00-14:30; 17:00-21:00"
+      ],
+      "hours_source_url": "https://www.ahsoresto.com/about",
+      "hours_notes": "Includes weekday happy hour 16:00-18:00 and dinner 17:00 onward; weekend brunch and dinner are separate.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Ahso",
+      "address": "22855 Brambleton Plz Ste 108, Brambleton, VA 20148",
+      "hours": [
+        "16:00-21:00",
+        "16:00-21:00",
+        "16:00-21:00",
+        "16:00-21:00",
+        "16:00-22:00",
+        "11:00-14:30; 17:00-22:00",
+        "11:00-14:30; 17:00-21:00"
+      ],
+      "hours_source_url": "https://www.ahsoresto.com/about",
+      "hours_notes": "Includes weekday happy hour 16:00-18:00 and dinner 17:00 onward; weekend brunch and dinner are separate.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Clyde's at Willow Creek Farm",
+      "address": "42920 Broadlands Blvd, Broadlands, VA 20148",
+      "hours": [
+        "11:00-00:30 (+1 day)",
+        "11:00-00:30 (+1 day)",
+        "11:00-00:30 (+1 day)",
+        "11:00-00:30 (+1 day)",
+        "11:00-00:30 (+1 day)",
+        "10:00-00:30 (+1 day)",
+        "10:00-00:30 (+1 day)"
+      ],
+      "hours_source_url": "https://www.clydes.com/location/clydes-willow-creek-farm",
+      "hours_notes": "Venue hours. Kitchen closes at midnight; Richmond House has a separate schedule.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Bilstad's Beignets",
+      "address": "20937 Ashburn Rd Ste 150, Ashburn, VA 20147",
+      "hours": [
+        "Closed",
+        "Closed",
+        "Closed",
+        "Closed",
+        "Closed",
+        "Closed",
+        "Closed"
+      ],
+      "hours_source_url": "https://bilstadsbeignets.com/",
+      "hours_notes": "Official website states permanently closed. Award row retained for historical guide membership.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "The Bungalow Lakehouse",
+      "address": "46116 Lake Center Plaza, Sterling, VA 20165",
+      "hours": [
+        "11:30-00:00 (+1 day)",
+        "11:30-00:00 (+1 day)",
+        "11:30-00:00 (+1 day)",
+        "11:30-00:00 (+1 day)",
+        "11:30-02:00 (+1 day)",
+        "11:30-02:00 (+1 day)",
+        "10:30-00:00 (+1 day)"
+      ],
+      "hours_source_url": "https://www.bungalowlakehouse.com/",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "The Bungalow Lakehouse",
+      "address": "46116 Lake Center Plz, Sterling, VA 20165",
+      "hours": [
+        "11:30-00:00 (+1 day)",
+        "11:30-00:00 (+1 day)",
+        "11:30-00:00 (+1 day)",
+        "11:30-00:00 (+1 day)",
+        "11:30-02:00 (+1 day)",
+        "11:30-02:00 (+1 day)",
+        "10:30-00:00 (+1 day)"
+      ],
+      "hours_source_url": "https://www.bungalowlakehouse.com/",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Jasmine Chinese Cuisine & Sushi",
+      "address": "110 S St, Leesburg, VA 20175",
+      "hours": [
+        "11:00-21:00",
+        "11:00-21:00",
+        "11:00-21:00",
+        "11:00-21:00",
+        "11:00-22:00",
+        "11:00-22:00",
+        "Closed"
+      ],
+      "hours_source_url": "https://jasminecuisine.com/",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Chin-Chin Café",
+      "address": "43930 Farmwell Hunt Plz 106, Ashburn, VA 20147",
+      "hours": [
+        "10:30-21:30",
+        "10:30-21:30",
+        "10:30-21:30",
+        "10:30-21:30",
+        "10:30-22:30",
+        "11:00-22:30",
+        "11:00-21:30"
+      ],
+      "hours_source_url": "https://www.chin-chincafe.com/contact.html",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Café Opera",
+      "address": "42882 Truro Parish Dr Ste 104, Ashburn, VA 20148",
+      "hours": [
+        "11:00-21:00",
+        "11:00-21:00",
+        "11:00-21:00",
+        "11:00-21:00",
+        "11:00-21:30",
+        "12:00-21:30",
+        "12:00-21:00"
+      ],
+      "hours_source_url": "https://cafeoperava.com/",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Pen's Oriental Kitchen",
+      "address": "609 Z E Main St, Purcellville, VA 20132",
+      "hours": [
+        "11:30-21:00",
+        "Closed",
+        "11:30-21:00",
+        "11:30-21:00",
+        "11:30-21:30",
+        "11:30-21:30",
+        "11:30-21:00"
+      ],
+      "hours_source_url": "https://www.pensorientalkitchen.com/locationinfo",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Trinity House Café + Market",
+      "address": "101 East Market Street, Leesburg, VA 20176",
+      "hours": [
+        "08:00-15:00",
+        "08:00-15:00",
+        "08:00-15:00",
+        "08:00-15:00",
+        "08:00-15:00",
+        "08:00-17:00",
+        ""
+      ],
+      "hours_source_url": "https://www.trinityhousecafe.com/",
+      "hours_notes": "Visible website schedule used instead of older conflicting structured data. Sunday not explicitly specified.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "SimplyBe Coffee",
+      "address": "208 Church Street, Leesburg, VA 20175",
+      "hours": [
+        "08:00-15:00",
+        "08:00-15:00",
+        "08:00-15:00",
+        "08:00-15:00",
+        "08:00-15:00",
+        "09:00-15:00",
+        ""
+      ],
+      "hours_source_url": "https://www.tolministries.org/simplybe-coffee/",
+      "hours_notes": "Leesburg branch. Sunday not explicitly specified.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Goosecup Coffee & Bar",
+      "address": "216 S King St, Leesburg, VA 20175",
+      "hours": [
+        "07:00-20:00",
+        "",
+        "07:00-20:00",
+        "07:00-20:00",
+        "07:00-22:00",
+        "07:00-22:00",
+        "07:00-20:00"
+      ],
+      "hours_source_url": "https://www.goosecup.co/locations",
+      "hours_notes": "Tuesday conflicts: seasonal section says 07:00-15:00; homepage says 07:00-20:00. Tuesday left blank.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Caffe Bottega Italiana",
+      "address": "8 Fort Evans Road, Leesburg, VA 20176",
+      "hours": [
+        "Closed",
+        "10:00-16:00",
+        "10:00-16:00",
+        "10:00-16:00",
+        "10:00-18:00",
+        "10:00-18:00",
+        "Closed"
+      ],
+      "hours_source_url": "https://bottegaitalianacaffe.com/",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Puccio's New York Deli",
+      "address": "211 Loudoun St, Leesburg, VA 20175",
+      "hours": [
+        "08:00-15:00",
+        "08:00-15:00",
+        "08:00-15:00",
+        "08:00-15:00",
+        "08:00-15:00",
+        "08:00-15:00",
+        "Closed"
+      ],
+      "hours_source_url": "http://www.puccios-deli.com/",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Deli South",
+      "address": "38 Catoctin Cir, Leesburg, VA 20175",
+      "hours": [
+        "06:30-15:00",
+        "06:30-15:00",
+        "06:30-15:00",
+        "06:30-15:00",
+        "06:30-16:00",
+        "06:30-16:00",
+        "Closed"
+      ],
+      "hours_source_url": "https://www.delisouth.com/",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Gruto's Soft Serve ",
+      "address": "107 S King St, Leesburg, VA 20175",
+      "hours": [
+        "12:00-21:00",
+        "12:00-21:00",
+        "12:00-21:00",
+        "12:00-21:00",
+        "12:00-22:00",
+        "12:00-22:00",
+        "14:00-21:00"
+      ],
+      "hours_source_url": "https://grutos.com/locations/",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "The Conche",
+      "address": "1605 Village Market Blvd, Leesburg, VA 20175",
+      "hours": [
+        "16:00-20:00",
+        "16:00-20:00",
+        "16:00-20:00",
+        "16:00-20:00",
+        "16:00-21:00",
+        "11:00-14:00; 16:00-21:00",
+        "11:00-14:00; 16:00-20:00"
+      ],
+      "hours_source_url": "https://the-conche.com/",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Solo NY Pizza",
+      "address": "700 Fieldstone Dr, Leesburg, VA 20176",
+      "hours": [
+        "11:00-21:00",
+        "11:00-21:00",
+        "11:00-21:00",
+        "11:00-21:00",
+        "11:00-22:00",
+        "11:00-22:00",
+        "Closed"
+      ],
+      "hours_source_url": "https://solonypizza.com/",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Oak And Ember Tasting Room and Market",
+      "address": "39285 Little River Turnpike, Aldie, VA 20105",
+      "hours": [
+        "Closed",
+        "11:30-15:00",
+        "11:30-15:00; 17:00-20:30",
+        "11:30-15:00; 17:00-20:30",
+        "11:30-15:00; 17:00-21:30",
+        "11:30-15:00; 17:00-21:30",
+        ""
+      ],
+      "hours_source_url": "https://www.oakandemberr.com/",
+      "hours_notes": "Sunday daytime text is incomplete (only 3:00 pm); Sunday left unknown, although dinner is listed 17:00-20:30. Ember Hour differs by page and is not used.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "MELT Gourmet Cheeseburgers",
+      "address": "525 E Market St Suite J, Leesburg, VA 20176",
+      "hours": [
+        "11:00-20:30",
+        "11:00-20:30",
+        "11:00-20:30",
+        "11:00-20:30",
+        "11:00-21:00",
+        "11:00-21:00",
+        "11:00-20:30"
+      ],
+      "hours_source_url": "https://meltgourmetcheeseburgers.com/contact/",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Market Burger Fries & Shakes",
+      "address": "145 W Main St, Purcellville, VA 20132",
+      "hours": [
+        "Closed",
+        "11:00-21:00",
+        "11:00-21:00",
+        "11:00-21:00",
+        "11:00-21:00",
+        "11:00-21:00",
+        "11:00-21:00"
+      ],
+      "hours_source_url": "https://marketburger.net/",
+      "hours_notes": "May close before 21:00 when sold out.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Lowry's Crab Shack",
+      "address": "420 W Colonial Hwy, Hamilton, VA 20158",
+      "hours": [
+        "Closed",
+        "Closed",
+        "16:00-20:00",
+        "16:00-20:00",
+        "16:00-20:00",
+        "12:00-20:00",
+        "12:00-20:00"
+      ],
+      "hours_source_url": "https://www.lowryscrabshack.com/",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Raising Cane's Chicken Fingers",
+      "address": "45545 Dulles Eastern Plz, Sterling, VA 20166",
+      "hours": [
+        "10:00-01:00 (+1 day)",
+        "10:00-01:00 (+1 day)",
+        "10:00-01:00 (+1 day)",
+        "10:00-01:00 (+1 day)",
+        "10:00-02:00 (+1 day)",
+        "10:00-02:00 (+1 day)",
+        "10:00-01:00 (+1 day)"
+      ],
+      "hours_source_url": "https://locations.raisingcanes.com/va/sterling/45545-dulles-eastern-plaza",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Train to Mumbai",
+      "address": "11 Town Center Drive, Lovettsville, VA 20180",
+      "hours": [
+        "Closed",
+        "11:30-14:30; 16:30-21:00",
+        "11:30-14:30; 16:30-21:00",
+        "11:30-14:30; 16:30-21:00",
+        "11:30-21:00",
+        "12:00-21:00",
+        "12:00-15:00; 16:30-21:00"
+      ],
+      "hours_source_url": "https://www.traintomumbai.com/",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "PIND Indian Cuisine",
+      "address": "20522 Easthampton Plz, Ashburn, VA 20147",
+      "hours": [
+        "11:30-15:00; 17:00-22:00",
+        "11:30-15:00; 17:00-22:00",
+        "11:30-15:00; 17:00-22:00",
+        "11:30-15:00; 17:00-22:00",
+        "11:30-15:00; 17:00-22:30",
+        "12:00-15:00; 17:00-22:30",
+        "12:00-15:00; 17:00-22:00"
+      ],
+      "hours_source_url": "https://pindindianrestaurant.com/",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Saffron Indian Cuisine",
+      "address": "43170 Southern Walk Plz, Ashburn, VA 20148",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "https://www.saffronva.com/",
+      "hours_notes": "Dinner closing conflicts: main Working Hours says 22:00; footer/contact says midnight. Days remain unknown. Agreed lunch hours: weekdays 11:30-14:30, weekends 12:00-15:00.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Celebration by Rupa Vira",
+      "address": "44260 Ice Rink Plz Suite 120, Ashburn, VA 20147",
+      "hours": [
+        "Closed",
+        "11:30-14:30; 17:00-21:30",
+        "11:30-14:30; 17:00-21:30",
+        "11:30-14:30; 17:00-21:30",
+        "11:30-14:30; 17:00-22:00",
+        "11:30-15:00; 17:00-22:00",
+        "11:30-15:00; 17:00-21:30"
+      ],
+      "hours_source_url": "http://celebrationva.com/",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Pazzo Pomodoro",
+      "address": "118 Branch Rd. SE, Vienna, VA 22180",
+      "hours": [
+        "11:30-14:30; 16:30-21:30",
+        "11:30-14:30; 16:30-21:30",
+        "11:30-14:30; 16:30-21:30",
+        "11:30-14:30; 16:30-21:30",
+        "11:30-22:30",
+        "11:30-22:30",
+        "11:30-21:30"
+      ],
+      "hours_source_url": "https://www.pazzopomodoro.com/about",
+      "hours_notes": "Vienna dining-room hours, not Ashburn hours. Vienna bar stays open later.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Anthony's",
+      "address": "620 W Main St, Purcellville, VA 20132",
+      "hours": [
+        "11:00-21:00",
+        "11:00-21:00",
+        "11:00-21:00",
+        "11:00-21:00",
+        "11:00-22:00",
+        "11:00-22:00",
+        "11:00-21:00"
+      ],
+      "hours_source_url": "https://anthonysva.com/contact/",
+      "hours_notes": "Sunday is printed as 12 AM-8 PM, likely a typo; left blank rather than assuming noon.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Urbano Modern Italian",
+      "address": "21430 Epicerie Plz, Sterling, VA 20164",
+      "hours": [
+        "Closed",
+        "11:30-20:00",
+        "11:30-20:00",
+        "11:30-20:30",
+        "11:30-20:30",
+        "11:30-20:30",
+        "11:30-20:00"
+      ],
+      "hours_source_url": "https://www.urbanoitalian.com/",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Passion Fin",
+      "address": "42780 Creek View Plz, Ashburn, VA 20147",
+      "hours": [
+        "11:30-14:45; 16:30-21:30",
+        "11:30-14:45; 16:30-21:30",
+        "11:30-14:45; 16:30-21:30",
+        "11:30-14:45; 16:30-21:30",
+        "11:30-14:45; 16:30-22:00",
+        "12:00-22:00",
+        "12:00-21:30"
+      ],
+      "hours_source_url": "https://www.passionfinashburn.com/",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Noku Sushi, Hibachi and Ramen",
+      "address": "1607 Village Market Blvd Suite 108, Leesburg, VA 20175",
+      "hours": [
+        "11:30-21:00",
+        "11:30-21:00",
+        "11:30-21:00",
+        "11:30-21:00",
+        "11:30-21:30",
+        "11:30-21:30",
+        "11:30-21:00"
+      ],
+      "hours_source_url": "https://nokusushi.com/",
+      "hours_notes": "Leesburg branch schedule, not the separate Reston schedule.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Nagoya Steak & Seafood",
+      "address": "43330 Junction Plz Ste 194, Ashburn, VA 20147",
+      "hours": [
+        "16:30-22:00",
+        "16:30-22:00",
+        "16:30-22:00",
+        "16:30-22:00",
+        "16:00-22:00",
+        "16:00-22:00",
+        "15:00-21:00"
+      ],
+      "hours_source_url": "https://nagoyasteaknseafood.com/contact",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Gogi 92 Korean BBQ",
+      "address": "1602 Village Market Blvd, Leesburg, VA 20175",
+      "hours": [
+        "12:00-15:00; 16:00-21:30",
+        "12:00-15:00; 16:00-21:30",
+        "12:00-15:00; 16:00-21:30",
+        "12:00-15:00; 16:00-21:30",
+        "12:00-15:00; 16:00-21:30",
+        "12:00-15:00; 16:00-21:30",
+        "12:00-15:00; 16:00-21:30"
+      ],
+      "hours_source_url": "https://gogi92.com/",
+      "hours_notes": "Official site lists 1603 Village Market Blvd SE; source CSV says 1602. Same named Village at Leesburg venue; original address retained.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Honey Pig",
+      "address": "43330 Junction Plz Ste 180, Ashburn, VA 20147",
+      "hours": [
+        "11:30-22:00",
+        "11:30-22:00",
+        "11:30-22:00",
+        "11:30-22:00",
+        "11:30-23:00",
+        "11:30-23:00",
+        "11:30-22:00"
+      ],
+      "hours_source_url": "https://www.honeypigbbq.com/ashburn-va",
+      "hours_notes": "Sunday conflicts between two official Ashburn pages (11:30-21:30 versus 11:00-22:00); Sunday blank. Friday/Saturday typo 11:3o normalized to 11:30.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Opa! Mezze Grill",
+      "address": "44110 Ashburn Shopping Plz, Ashburn, VA 20147",
+      "hours": [
+        "11:00-20:00",
+        "11:00-20:00",
+        "11:00-20:00",
+        "11:00-20:00",
+        "11:00-20:30",
+        "11:00-20:30",
+        "11:00-19:00"
+      ],
+      "hours_source_url": "https://www.opamezzegrill.com/",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Nick's Taverna",
+      "address": "42395 Ryan Rd, Ashburn, VA 20148",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "12:00-21:00"
+      ],
+      "hours_source_url": "https://www.nickstaverna.com/",
+      "hours_notes": "Homepage and hour-location page conflict on Monday-Saturday; these days remain unknown. Sunday agrees at 12:00-21:00.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Taste of Lebanon",
+      "address": "510 E Market St, Leesburg, VA 20176",
+      "hours": [
+        "11:00-20:30",
+        "11:00-20:30",
+        "11:00-20:30",
+        "11:00-20:30",
+        "11:00-21:00",
+        "11:00-21:00",
+        "11:00-21:00"
+      ],
+      "hours_source_url": "https://tasteoflebanonlva.com/",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Greek Unique",
+      "address": "44632 Guilford Dr, Ashburn, VA 20147",
+      "hours": [
+        "11:00-14:30; 16:30-19:30",
+        "11:00-14:30; 16:30-19:30",
+        "11:00-14:30; 16:30-19:30",
+        "11:00-14:30; 16:30-19:00",
+        "11:00-14:30; 16:30-19:30",
+        "15:00-19:30",
+        "Closed"
+      ],
+      "hours_source_url": "https://greekuniqueva.com/",
+      "hours_notes": "Explicit weekday break 14:30-16:30 applied to the published daily hours.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Anita's",
+      "address": "5 Fort Evans Rd, Leesburg, VA 20176",
+      "hours": [
+        "05:00-21:00",
+        "05:00-21:00",
+        "05:00-21:00",
+        "05:00-21:00",
+        "05:00-22:00",
+        "05:00-22:00",
+        "05:30-21:00"
+      ],
+      "hours_source_url": "https://www.anitascorp.com/leesburg",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Casa Tequila Bar & Grill",
+      "address": "1020 E Main St Ste N, Purcellville, VA 20132",
+      "hours": [
+        "11:00-22:00",
+        "11:00-22:00",
+        "11:00-22:00",
+        "11:00-22:00",
+        "11:00-23:00",
+        "11:00-23:00",
+        "11:00-21:00"
+      ],
+      "hours_source_url": "https://casatequilarestaurant.com/locations",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Mancha Cocina Mexicana",
+      "address": "200 Fort Evans Road Northeast, Leesburg, VA 20176",
+      "hours": [
+        "11:00-22:00",
+        "11:00-22:00",
+        "11:00-22:00",
+        "11:00-22:00",
+        "11:00-22:00",
+        "11:00-22:00",
+        "11:00-21:00"
+      ],
+      "hours_source_url": "https://www.manchacocinamx.com/hours",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "More Better Beer Garden",
+      "address": "35246 Harry Byrd Hwy, Round Hill, VA 20141",
+      "hours": [
+        "11:30-21:00",
+        "11:30-21:00",
+        "11:30-21:00",
+        "11:30-21:00",
+        "11:30-22:00",
+        "10:00-22:00",
+        "10:00-21:00"
+      ],
+      "hours_source_url": "https://www.morebetterbeer.com/",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Shoe's Cup & Cork",
+      "address": "17 N King St, Leesburg, VA 20176",
+      "hours": [
+        "09:00-15:00; 17:00-21:00",
+        "Closed",
+        "Closed",
+        "09:00-15:00; 17:00-21:00",
+        "09:00-15:00; 17:00-22:00",
+        "09:00-15:00; 17:00-22:00",
+        "09:00-17:00"
+      ],
+      "hours_source_url": "https://shoescupandcork.com/",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Manhattan Pizza",
+      "address": "43930 Farmwell Hunt Plz 108, Ashburn, VA 20147",
+      "hours": [
+        "10:00-22:00",
+        "10:00-22:00",
+        "10:00-22:00",
+        "10:00-22:00",
+        "10:00-22:00",
+        "10:00-22:00",
+        "11:00-22:00"
+      ],
+      "hours_source_url": "https://manhattanpizza.com/locations/ashburn/",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Lightfoot Restaurant",
+      "address": "11 N King St, Leesburg, VA 20176",
+      "hours": [
+        "Closed",
+        "Closed",
+        "11:30-21:00",
+        "11:30-21:00",
+        "11:30-22:00",
+        "11:30-22:00",
+        "11:30-20:00"
+      ],
+      "hours_source_url": "https://lightfootrestaurant.com/contact/",
+      "hours_notes": "Published end times are last seating, not a guaranteed venue closing time.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Ford's Fish Shack - Lansdowne",
+      "address": "19308 Promenade Dr, Leesburg, VA 20176",
+      "hours": [
+        "11:00-22:00",
+        "11:00-22:00",
+        "11:00-22:00",
+        "11:00-22:00",
+        "11:00-23:00",
+        "10:00-23:00",
+        "10:00-22:00"
+      ],
+      "hours_source_url": "https://fordsfishshack.com/locations/lansdowne/",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Texas Roadhouse",
+      "address": "19990 Riverside Cmns Plz, Ashburn, VA 20147",
+      "hours": [
+        "15:00-22:00",
+        "15:00-22:00",
+        "15:00-21:00",
+        "15:00-22:00",
+        "11:00-23:00",
+        "11:00-23:00",
+        "11:00-22:00"
+      ],
+      "hours_source_url": "https://www.texasroadhouse.com/locations/ashburn",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Mr. Sushi & Mrs. Roll",
+      "address": "19302 Promenade Dr, Leesburg, VA 20176",
+      "hours": [
+        "11:30-21:30",
+        "11:30-21:30",
+        "11:30-21:30",
+        "11:30-21:30",
+        "11:30-22:00",
+        "11:30-22:00",
+        "11:30-21:30"
+      ],
+      "hours_source_url": "https://mrsushimrsroll.com/locations",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Lost Barrel Brewing",
+      "address": "36138 Little River Tpke, Middleburg, VA 20117",
+      "hours": [
+        "12:00-20:00",
+        "Closed",
+        "Closed",
+        "12:00-21:00",
+        "12:00-22:00",
+        "11:00-22:00",
+        "11:00-21:00"
+      ],
+      "hours_source_url": "http://lostbarrel.com/",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "The Thai Pan",
+      "address": "2 Harrison St, Leesburg, VA 20175",
+      "hours": [
+        "11:00-15:00; 16:30-21:30",
+        "11:00-15:00; 16:30-21:30",
+        "11:00-15:00; 16:30-21:30",
+        "11:00-15:00; 16:30-21:30",
+        "11:00-15:00; 16:30-21:30",
+        "12:00-21:30",
+        "12:00-21:00"
+      ],
+      "hours_source_url": "https://www.beyondmenu.com/53666/leesburg/the-thai-pan-leesburg-20175/info.aspx",
+      "hours_notes": "Official website links to BeyondMenu. Pickup hours used; delivery ends earlier.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Pho-Nomenal",
+      "address": "20447 Exchange St, Ashburn, VA 20147",
+      "hours": [
+        "11:00-21:00",
+        "11:00-21:00",
+        "11:00-21:00",
+        "11:00-21:00",
+        "11:00-21:30",
+        "11:00-21:30",
+        "11:00-21:00"
+      ],
+      "hours_source_url": "https://www.phonomenalashburn.com/",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "4 Sisters Asian Snack Bar",
+      "address": "43670 Greenway Corporate Drive Suite 106, Ashburn, VA 20147",
+      "hours": [
+        "11:30-19:00",
+        "Closed",
+        "11:30-19:00",
+        "11:30-19:00",
+        "11:30-19:00",
+        "11:30-19:00",
+        "11:30-18:00"
+      ],
+      "hours_source_url": "https://www.foursisterssnackbar.com/",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Pho Royal - Sterling",
+      "address": "46839 Maple Leaf Pl Suite 145, Sterling, VA 20164",
+      "hours": [
+        "10:00-20:30",
+        "10:00-20:30",
+        "10:00-20:30",
+        "10:00-20:30",
+        "10:00-20:30",
+        "10:00-20:30",
+        "10:00-20:30"
+      ],
+      "hours_source_url": "https://www.phoroyalsterling.com/",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Buffalo Wing Factory - Reston",
+      "address": "2260 Hunters Woods Plaza Suite D, Reston, VA 20191",
+      "hours": [
+        "11:00-22:00",
+        "11:00-21:00",
+        "11:00-22:00",
+        "11:00-22:00",
+        "11:00-23:00",
+        "11:00-23:00",
+        "11:00-22:00"
+      ],
+      "hours_source_url": "https://www.buffalowingfactory.com/locations/reston/",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Anchor Bar",
+      "address": "1609 Village Market Blvd, Leesburg, VA 20175",
+      "hours": [
+        "11:00-22:00",
+        "11:00-22:00",
+        "11:00-22:00",
+        "11:00-22:00",
+        "11:00-23:00",
+        "11:00-23:00",
+        "11:00-22:00"
+      ],
+      "hours_source_url": "https://www.anchorbar.com/locations/leesburg-va/",
+      "hours_notes": "Regular hours; one-off early football opening is not treated as a recurring schedule.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Bruster's Real Ice Cream",
+      "address": "43150 Broadlands Center Plaza Ste 114, Ashburn, VA 20148",
+      "hours": [
+        "12:00-22:00",
+        "12:00-22:00",
+        "12:00-22:00",
+        "12:00-22:00",
+        "12:00-23:00",
+        "12:00-23:00",
+        "12:00-22:00"
+      ],
+      "hours_source_url": "https://brusters.com/locations/ashburn/387/",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Bruster's Real Ice Cream",
+      "address": "555 Compass Pt Plz Suite 108, Leesburg, VA 20175",
+      "hours": [
+        "12:00-22:00",
+        "12:00-22:00",
+        "12:00-22:00",
+        "12:00-22:00",
+        "12:00-23:00",
+        "12:00-23:00",
+        "12:00-22:00"
+      ],
+      "hours_source_url": "https://brusters.com/locations/leesburg/411/",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Bruster's Real Ice Cream",
+      "address": "21385 Epicerie Plaza Ste 150 Suite 150, Sterling, VA 20164",
+      "hours": [
+        "12:00-22:00",
+        "12:00-22:00",
+        "12:00-22:00",
+        "12:00-22:00",
+        "12:00-23:00",
+        "12:00-23:00",
+        "12:00-22:00"
+      ],
+      "hours_source_url": "https://brusters.com/locations/Sterling/471/",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Bruster's Real Ice Cream",
+      "address": "42015 Village Center Plaza Suite 100, Aldie, VA 20105",
+      "hours": [
+        "12:00-22:00",
+        "12:00-22:00",
+        "12:00-22:00",
+        "12:00-22:00",
+        "12:00-23:00",
+        "12:00-23:00",
+        "12:00-22:00"
+      ],
+      "hours_source_url": "https://brusters.com/locations/stoneridge/419/",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Travinia Italian Kitchen & Wine Bar",
+      "address": "1605 Village Market Blvd Suite 104, Leesburg, VA 20176",
+      "hours": [
+        "11:30-21:00",
+        "11:30-21:00",
+        "11:30-21:00",
+        "11:30-21:00",
+        "11:30-22:00",
+        "11:30-22:00",
+        "11:30-21:00"
+      ],
+      "hours_source_url": "https://www.traviniaitaliankitchen.com/travinia-leesburg-va.php",
+      "hours_notes": "",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Five Guys",
+      "address": "44795 Dulles Overlook Dr Ste 100, Ashburn, VA 20147",
+      "hours": [
+        "11:00-22:00",
+        "11:00-22:00",
+        "11:00-22:00",
+        "11:00-22:00",
+        "11:00-23:00",
+        "11:00-23:00",
+        "11:00-23:00"
+      ],
+      "hours_source_url": "https://restaurants.fiveguys.com/44795-dulles-overlook-drive",
+      "hours_notes": "Branch-specific openingHours from the official restaurant structured data; delivery hours are not used.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Five Guys",
+      "address": "46220 Potomac Run Plaza, Sterling, VA 20164",
+      "hours": [
+        "11:00-22:00",
+        "11:00-22:00",
+        "11:00-22:00",
+        "11:00-22:00",
+        "11:00-22:00",
+        "11:00-22:00",
+        "11:00-22:00"
+      ],
+      "hours_source_url": "https://restaurants.fiveguys.com/46220-potomac-run-plaza",
+      "hours_notes": "Branch-specific openingHours from the official restaurant structured data; delivery hours are not used.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Five Guys",
+      "address": "44650 Waxpool Rd, Ashburn, VA 20147",
+      "hours": [
+        "10:00-22:00",
+        "10:00-22:00",
+        "10:00-22:00",
+        "10:00-22:00",
+        "10:00-22:00",
+        "10:00-22:00",
+        "10:00-22:00"
+      ],
+      "hours_source_url": "https://restaurants.fiveguys.com/44650-waxpool-road",
+      "hours_notes": "Branch-specific openingHours from the official restaurant structured data; delivery hours are not used.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Five Guys",
+      "address": "1083 Edwards Ferry Rd, Leesburg, VA 20176",
+      "hours": [
+        "11:00-22:00",
+        "11:00-22:00",
+        "11:00-22:00",
+        "11:00-22:00",
+        "11:00-22:00",
+        "11:00-22:00",
+        "11:00-22:00"
+      ],
+      "hours_source_url": "https://restaurants.fiveguys.com/1083-edwards-ferry-road-ne",
+      "hours_notes": "Branch-specific openingHours from the official restaurant structured data; delivery hours are not used.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Five Guys",
+      "address": "308 Kellys Ford Plaza, Leesburg, VA 20175",
+      "hours": [
+        "11:00-22:00",
+        "11:00-22:00",
+        "11:00-22:00",
+        "11:00-22:00",
+        "11:00-22:00",
+        "11:00-22:00",
+        "11:00-22:00"
+      ],
+      "hours_source_url": "https://restaurants.fiveguys.com/308-kellys-ford-plaza-se",
+      "hours_notes": "Branch-specific openingHours from the official restaurant structured data; delivery hours are not used.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Lark Brewing Co.",
+      "address": "24205 James Monroe Highway, Aldie, VA 20105",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "11:00-22:00",
+        "11:00-22:00",
+        "11:00-20:00"
+      ],
+      "hours_source_url": "https://www.larkbrewingco.com/visit/",
+      "hours_notes": "Monday-Thursday closing conflicts on the same official page (20:00 versus 21:00); these days blank. Private reservations may cause early closures.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Big Kyle Barbecue",
+      "address": "Atwater Dr, One Loudoun, VA 20147",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "The Difference Baker",
+      "address": "20937 Ashburn Rd Ste 130, Ashburn, VA 20147",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Bkd. Bagels",
+      "address": "105 S King St, Leesburg, VA 20175",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "Info page returned no readable weekly schedule for the 105 S King Street location.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Joe's Cafe",
+      "address": "45665 W Church Rd, Sterling, VA 20164",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Spanky's Shenanigans",
+      "address": "538 E Market St, Leesburg, VA 20176",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Blue Ridge Grill ",
+      "address": "44065 Ashburn Shopping Plaza, Ashburn, VA 20147",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Blue Ridge Grill ",
+      "address": "22865 Brambleton Plaza Brambleton, VA 20148",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Blue Ridge Grill ",
+      "address": "955 Edwards Ferry Rd, Leesburg, VA 20176",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "King Street Oyster Bar",
+      "address": "12 S King St, Leesburg, VA 20175",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "China King's Restaurant",
+      "address": "5 S King St, Leesburg, VA 20175",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Doppio Bunny Coffee",
+      "address": "550 E Main St, Purcellville, VA 20132",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Back Street Brews",
+      "address": "11 E Pennsylvania Ave, Lovettsville, VA 20180",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "The Deli",
+      "address": "19350 Diamond Lake Dr, Leesburg, VA 20176",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Gruto's Soft Serve",
+      "address": "141 W Main St, Purcellville, VA 20132",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Tipped Cow Creamery",
+      "address": "251 N 21st St, Purcellville, VA 20132",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "Official website only labels its schedule SPRING BREAK HOURS; not used as current October hours.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Fire Works Pizza",
+      "address": "201 Harrison Street, Leesburg, VA 20175",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "Official Leesburg site says open daily at 11:00 but does not publish a closing time.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "American Legion Post 293",
+      "address": "112 N 21st St, Purcellville, VA 20132",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Magnolia's at The Mill",
+      "address": "198 N 21st St, Purcellville, VA 20132",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Ford's On The Road",
+      "address": "19308 Promenade Dr, Leesburg, VA 20176",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "MooThru",
+      "address": "37098 Charles Town Pike, Hillsboro, VA 20132",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "La Selva Crepes & Coffee",
+      "address": "39359 Little River Turnpike, Aldie, VA 20105",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "ResQ BBQ Trailer",
+      "address": "528 B E Market St, Leesburg, VA 20176",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Five Guys",
+      "address": "1024 Seneca Rd Unit 2, Great Falls, VA 22066",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Popeyes Louisiana Kitchen",
+      "address": "12218 Leesburg Pike, Herndon, VA 20170",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Popeyes Louisiana Kitchen",
+      "address": "20460 Heron Overlook Plz, Ashburn, VA 20147",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Popeyes Louisiana Kitchen",
+      "address": "44061 Ashburn Shopping Plz, Ashburn, VA 20147",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Popeyes Louisiana Kitchen",
+      "address": "515 E Market St, Leesburg, VA 20176",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Popeyes Louisiana Kitchen",
+      "address": "44080 Pointe Plz, Chantilly, VA 20152",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Popeyes Louisiana Kitchen",
+      "address": "520 Compass Pt Plz, Leesburg, VA 20175",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Popeyes Louisiana Kitchen",
+      "address": "24431 Stone Springs Blvd, Sterling, VA 20166",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Popeyes Louisiana Kitchen",
+      "address": "358 Elden St, Herndon, VA 20170",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Popeyes Louisiana Kitchen",
+      "address": "11850 Sunrise Valley Dr, Reston, VA 20191",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Popeyes Louisiana Kitchen",
+      "address": "3075 Centreville Rd, Herndon, VA 20171",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Brookfield Dairy Farm Inc.",
+      "address": "18868 Harmony Church Road, Leesburg, VA 20175",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "Published weekend 12:00-17:00 schedule is associated with a second roadside address; source branch not verified.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Market Burger",
+      "address": "145 W Main St, Purcellville, VA 20132",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Marigold Restaurant & Banquet Hall",
+      "address": "21015 Dulles Town Cir., Sterling, VA 20166",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Kobe Japanese Steak & Seafood House",
+      "address": "514 E Market St, Leesburg, VA 20176",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "OKADA Japanese Restaurant & Sushi Bar",
+      "address": "20357 Exchange St, Ashburn, VA 20147",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Oseyo Korean BBQ",
+      "address": "19286 Promenade Drive, Leesburg, VA 20176",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Chi Mc",
+      "address": "21950 Cascades Parkway, Sterling, VA 20164",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "GogiGoGo",
+      "address": "42780 Creek View Plz 120, Ashburn, VA 20147",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Mama Lucci's",
+      "address": "302 Industrial Court Southeast, Leesburg, VA 20175",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Parrando's Tex-Mex Grill",
+      "address": "42830 Creek View Plaza #100 Ashburn, VA 20147",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "Ashburn hours conflict between branch page and locations page; no schedule selected.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Casa De Avila Tacos",
+      "address": "2C Loudoun St, Leesburg, VA 20175",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Fire Works Pizza",
+      "address": "201 Harrison Street SE, Leesburg, VA 20175",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "Official Leesburg site says open daily at 11:00 but does not publish a closing time.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "900 Degrees Brick Oven Pizza",
+      "address": "609 E Main St, Purcellville, VA 20132",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Pizza Twist Ashburn",
+      "address": "20691 Ashburn Road, Suite 160, Ashburn, VA 20147",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Filling Co. Gas & Grub",
+      "address": "20050 Ashbrook Commons Plz, Ashburn, VA 20147",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Ford's Fish Shack",
+      "address": "44260 Ice Rink Plaza Suite 101, Ashburn, VA 20147",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "King Street Oyster Bar ",
+      "address": "12 S King St, Leesburg, VA 20175",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "King Street Oyster Bar - Middleburg",
+      "address": "1 E Washington St, Middleburg, VA 20117",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "D.C. Prime",
+      "address": "20120 Lakeview Center Plz, Ashburn, VA 20147",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "Official site gives daily opening at 16:00 but no closing time; daily intervals left blank.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Finn Thai Ashburn",
+      "address": "44795 Dulles Overlook Drive Ashburn, VA 20147",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Finn Thai Reston",
+      "address": "1466 North Point Village Center, Reston, VA 20194",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Finn Thai Great Falls",
+      "address": "752a Walker Rd, Great Falls, VA 22066",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Finn Thai Restaurant & Bar",
+      "address": "126 N Maple Ave, Purcellville, VA 20132",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Sense of Thai St.",
+      "address": "20413 Exchange St, Ashburn, VA 20147",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "My Home Thai Bistro",
+      "address": "19890 Belmont Chase Dr, Ashburn, VA 20147",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "My Thai Place",
+      "address": "42385 Ryan Rd Ste 104, Brambleton, VA 20148",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Pho Royal - Leesburg",
+      "address": "542 Fort Evans Rd, Leesburg, VA 20176",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Viet Fire Kitchen",
+      "address": "44650 Waxpool Rd Ste 125, Ashburn, VA 20147",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Pho Bar",
+      "address": "19385 Promenade Dr, Leesburg, VA 20176",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Buffalo Wing Factory - Sterling",
+      "address": "22034 Shaw Rd, Sterling, VA 20164",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Buffalo Wing Factory -Ashburn",
+      "address": "43761 Parkhurst Plaza Suite 100, Ashburn, VA 20147",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    },
+    {
+      "name": "Buffalo Wing Factory - Leesburg",
+      "address": "565 Compass Pt Plz Suite 100, Leesburg, VA 20175",
+      "hours": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "hours_source_url": "",
+      "hours_notes": "No reliable branch-specific weekly schedule verified from the supplied website in this pass.",
+      "hours_checked_on": "2026-10-06"
+    }
+  ]
+}

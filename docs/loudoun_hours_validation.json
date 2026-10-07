@@ -1,0 +1,11 @@
+{
+  "checked_on": "2026-10-06",
+  "rows": 244,
+  "unique_name_address_locations": 152,
+  "rows_with_some_hours": 159,
+  "rows_with_complete_week": 149,
+  "locations_with_some_hours": 86,
+  "locations_with_complete_week": 78,
+  "original_columns_unchanged": true,
+  "encoding": "UTF-8 with BOM"
+}

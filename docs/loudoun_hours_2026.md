@@ -1,0 +1,13 @@
+# Best of Loudoun hours
+
+Researched October 6, 2026. All 244 award rows and the original eight columns are preserved. Exact name/address pairs identify 152 source locations (including existing address spelling variants). The seven daily-hours columns use 24-hour intervals, semicolons for split service, `Closed` for explicitly published closures, and `(+1 day)` for overnight closing.
+
+Hours were found for 86 named locations / 159 award rows. Complete weekly schedules cover 78 locations / 149 rows. One location with all days closed is Bilstad's Beignets, whose official site announces permanent closure. It remains in the historical awards list.
+
+Official websites, branch contact/location pages, their published structured data, and an ordering service linked by The Thai Pan supplied hours. Each populated schedule has `hours_source_url`, `hours_checked_on`, and optional `hours_notes`. The date is a research date, not a guarantee that the venue updated its schedule that day. Website retrieval covered the supplied site URLs, with follow-up pages and selected branch locator searches. Google Maps backup searches for The Difference Baker, D.C. Prime, and Tipped Cow did not yield accessible weekly schedules; no Google-derived hours are claimed.
+
+Incomplete or conflicting days are blank rather than being represented as closed. When part of a day's service is unresolved, the entire day stays unknown. Examples include Saffron's conflicting dinner close, Nick's conflicting pages, Lark's conflicting weekday closes, and Oak & Ember's incomplete Sunday lunch text. Tipped Cow's spring-break schedule was not treated as current October hours. Fire Works and D.C. Prime only supplied opening times. Food trucks, generic chain homepages, unreadable pages, and uncertain branch matches remain unresolved in this pass. Notes in the CSV identify researched exceptions. The separate unresolved-hours CSV lists the 74 locations needing some or all days verified.
+
+Venue hours may extend beyond kitchen service; relevant limitations are noted (for example Clyde's kitchen closes at midnight). Lightfoot publishes last-seating times. Regular weekly schedules do not incorporate one-off events, holidays, sold-out closures, or temporary weather notices.
+
+To reapply this reviewed snapshot, run `python scripts/enrich_loudoun_hours.py --input data/best_of_loudoun.csv --reviewed docs/loudoun_hours_2026.json --output data/best_of_loudoun.csv`. The importer preserves award rows, requires exact branch coverage, and does not change research dates. Update and review the evidence before applying newer hours.

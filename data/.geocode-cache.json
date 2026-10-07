@@ -31,6 +31,14 @@
     "street address": "1024 Seneca Road",
     "zip code": "22066"
   },
+  "103 rhode island ave. nw, washington, dc, 20001, usa": {
+    "city": "Washington",
+    "latitude": "38.91589",
+    "longitude": "-77.01244",
+    "state": "District of Columbia",
+    "street address": "103 Rhode Island Avenue Northwest",
+    "zip code": "20001"
+  },
   "105 s king st, leesburg, va 20175": {
     "city": "Leesburg",
     "latitude": "39.11399",
@@ -95,6 +103,22 @@
     "street address": "110 South Street Southeast",
     "zip code": "20175"
   },
+  "1100 15th st. nw, washington, dc, 20005, usa": {
+    "city": "Washington",
+    "latitude": "38.90454",
+    "longitude": "-77.03558",
+    "state": "District of Columbia",
+    "street address": "1100 15th Street Northwest",
+    "zip code": "20005"
+  },
+  "1114 9th st. nw, washington, dc, 20001, usa": {
+    "city": "Washington",
+    "latitude": "38.90480",
+    "longitude": "-77.02418",
+    "state": "District of Columbia",
+    "street address": "1114 9th Street Northwest",
+    "zip code": "20001"
+  },
   "112 n 21st st, purcellville, va 20132": {
     "city": "Purcellville",
     "latitude": "39.13802",
@@ -102,6 +126,14 @@
     "state": "Virginia",
     "street address": "112 North 21st Street",
     "zip code": "20132"
+  },
+  "1124 23rd st. nw, washington, dc, 20037, usa": {
+    "city": "Washington",
+    "latitude": "38.90434",
+    "longitude": "-77.05032",
+    "state": "District of Columbia",
+    "street address": "1124 23rd Street Northwest",
+    "zip code": "20037"
   },
   "118 brach rd. se, vienna, va 22180": {
     "city": "",
@@ -119,6 +151,14 @@
     "street address": "11850 Sunrise Valley Drive",
     "zip code": "20191"
   },
+  "1190 22nd st. nw, washington, dc, 20037, usa": {
+    "city": "Washington",
+    "latitude": "38.90499",
+    "longitude": "-77.04906",
+    "state": "District of Columbia",
+    "street address": "1190 22nd Street Northwest",
+    "zip code": "20526"
+  },
   "12 s king st, leesburg, va 20175": {
     "city": "Leesburg",
     "latitude": "39.11502",
@@ -126,6 +166,46 @@
     "state": "Virginia",
     "street address": "12 South King Street",
     "zip code": "20175"
+  },
+  "1200 19th st. nw, washington, dc, 20036, usa": {
+    "city": "Washington",
+    "latitude": "38.90601",
+    "longitude": "-77.04371",
+    "state": "District of Columbia",
+    "street address": "1200 19th Street Northwest",
+    "zip code": "20036"
+  },
+  "1201 28th st. nw, washington, dc, 20007, usa": {
+    "city": "Washington",
+    "latitude": "38.90539",
+    "longitude": "-77.05687",
+    "state": "District of Columbia",
+    "street address": "1201 28th Street Northwest",
+    "zip code": "20007"
+  },
+  "1205 11th st. nw, washington, dc, 20001, usa": {
+    "city": "Washington",
+    "latitude": "38.90597",
+    "longitude": "-77.02681",
+    "state": "District of Columbia",
+    "street address": "1205 11th Street Northwest",
+    "zip code": "20001"
+  },
+  "1207 9th st. nw, washington, dc, 20001, usa": {
+    "city": "Washington",
+    "latitude": "38.90584",
+    "longitude": "-77.02363",
+    "state": "District of Columbia",
+    "street address": "1207 9th Street Northwest",
+    "zip code": "20001"
+  },
+  "122 blagden alley nw, washington, dc, 20001, usa": {
+    "city": "Washington",
+    "latitude": "38.90638",
+    "longitude": "-77.02457",
+    "state": "District of Columbia",
+    "street address": "122 Blagden Alley Northwest",
+    "zip code": "20001"
   },
   "12218 leesburg pike, herndon, va 20170": {
     "city": "",
@@ -135,6 +215,22 @@
     "street address": "",
     "zip code": ""
   },
+  "1226 36th st. nw, washington, dc, 20007, usa": {
+    "city": "Washington",
+    "latitude": "38.90598",
+    "longitude": "-77.07042",
+    "state": "District of Columbia",
+    "street address": "1226 36th Street Northwest",
+    "zip code": "20007"
+  },
+  "1234 h st. ne, washington, dc, 20002, usa": {
+    "city": "Washington",
+    "latitude": "38.90044",
+    "longitude": "-76.98904",
+    "state": "District of Columbia",
+    "street address": "1234 H Street Northeast",
+    "zip code": "20002"
+  },
   "126 n maple ave, purcellville, va 20132": {
     "city": "Purcellville",
     "latitude": "39.13809",
@@ -142,6 +238,86 @@
     "state": "Virginia",
     "street address": "126 North Maple Avenue",
     "zip code": "20132"
+  },
+  "1280 4th st. ne, washington, dc, 20002, usa": {
+    "city": "Washington",
+    "latitude": "38.90881",
+    "longitude": "-76.99961",
+    "state": "District of Columbia",
+    "street address": "1280 4th Street Northeast",
+    "zip code": "20002"
+  },
+  "1306 18th st. nw, washington, dc, 20036, usa": {
+    "city": "Washington",
+    "latitude": "38.90795",
+    "longitude": "-77.04186",
+    "state": "District of Columbia",
+    "street address": "1306 18th Street Northwest",
+    "zip code": "20036"
+  },
+  "1316 9th st. nw, washington, dc, 20001, usa": {
+    "city": "Washington",
+    "latitude": "38.90785",
+    "longitude": "-77.02414",
+    "state": "District of Columbia",
+    "street address": "1316 9th Street Northwest",
+    "zip code": "20001"
+  },
+  "1321 linden ct. ne, washington, dc, 20002, usa": {
+    "city": "Washington",
+    "latitude": "38.89948",
+    "longitude": "-76.98723",
+    "state": "District of Columbia",
+    "street address": "1321 Linden Court Northeast",
+    "zip code": "20002"
+  },
+  "1331 4th st. se, washington, dc, 20003, usa": {
+    "city": "Washington",
+    "latitude": "38.87430",
+    "longitude": "-77.00096",
+    "state": "District of Columbia",
+    "street address": "1331 4th Street Southeast",
+    "zip code": "20003"
+  },
+  "1340 4th st. ne, washington, dc, 20002, usa": {
+    "city": "Washington",
+    "latitude": "38.90972",
+    "longitude": "-76.99923",
+    "state": "District of Columbia",
+    "street address": "1340 4th Street Northeast",
+    "zip code": "20002"
+  },
+  "1346 4th st. se, washington, dc, 20003, usa": {
+    "city": "Washington",
+    "latitude": "38.87430",
+    "longitude": "-76.99980",
+    "state": "District of Columbia",
+    "street address": "1346 4th Street Southeast",
+    "zip code": "20003"
+  },
+  "1346 florida ave. nw, washington, dc, 20009, usa": {
+    "city": "",
+    "latitude": "",
+    "longitude": "",
+    "state": "",
+    "street address": "",
+    "zip code": ""
+  },
+  "1351 h st. ne, washington, dc, 20002, usa": {
+    "city": "Washington",
+    "latitude": "38.89996",
+    "longitude": "-76.98667",
+    "state": "District of Columbia",
+    "street address": "1351 H Street Northeast",
+    "zip code": "20002"
+  },
+  "1356 okie st. ne, washington, dc, 20002, usa": {
+    "city": "Washington",
+    "latitude": "38.91460",
+    "longitude": "-76.98544",
+    "state": "District of Columbia",
+    "street address": "1356 Okie Street Northeast",
+    "zip code": "20002"
   },
   "141 w main st, purcellville, va 20132": {
     "city": "Purcellville",
@@ -151,6 +327,22 @@
     "street address": "141 West Main Street",
     "zip code": "20132"
   },
+  "1414 9th st. nw, washington, dc, 20001, usa": {
+    "city": "Washington",
+    "latitude": "38.90915",
+    "longitude": "-77.02424",
+    "state": "District of Columbia",
+    "street address": "1414 9th Street Northwest",
+    "zip code": "20001"
+  },
+  "1440 8th st. nw, washington, dc, 20001, usa": {
+    "city": "Washington",
+    "latitude": "38.90935",
+    "longitude": "-77.02309",
+    "state": "District of Columbia",
+    "street address": "1440 8th Street Northwest",
+    "zip code": "20001"
+  },
   "145 w main st, purcellville, va 20132": {
     "city": "Purcellville",
     "latitude": "39.13685",
@@ -159,6 +351,14 @@
     "street address": "145 West Main Street",
     "zip code": "20132"
   },
+  "1451 maryland ave. ne, washington, dc, 20002, usa": {
+    "city": "Washington",
+    "latitude": "38.89965",
+    "longitude": "-76.98385",
+    "state": "District of Columbia",
+    "street address": "1451 Maryland Avenue Northeast",
+    "zip code": "20002"
+  },
   "1466 north point village center, reston, va 20194": {
     "city": "Reston",
     "latitude": "38.97884",
@@ -166,6 +366,38 @@
     "state": "Virginia",
     "street address": "1466 North Point Village Center",
     "zip code": "20194"
+  },
+  "1501 9th st. nw, washington, dc, 20001, usa": {
+    "city": "Washington",
+    "latitude": "38.90978",
+    "longitude": "-77.02366",
+    "state": "District of Columbia",
+    "street address": "1501 9th Street Northwest",
+    "zip code": "20001"
+  },
+  "1521 17th st. nw, washington, dc, 20036, usa": {
+    "city": "Washington",
+    "latitude": "38.91052",
+    "longitude": "-77.03815",
+    "state": "District of Columbia",
+    "street address": "1521 17th Street Northwest",
+    "zip code": "20036"
+  },
+  "1522 wisconsin ave. nw, washington, dc, 20007, usa": {
+    "city": "Washington",
+    "latitude": "38.90940",
+    "longitude": "-77.06461",
+    "state": "District of Columbia",
+    "street address": "1522 Wisconsin Avenue Northwest",
+    "zip code": "20007"
+  },
+  "1524 wisconsin ave. nw, washington, dc, 20007, usa": {
+    "city": "Washington",
+    "latitude": "38.90947",
+    "longitude": "-77.06461",
+    "state": "District of Columbia",
+    "street address": "1524 Wisconsin Avenue Northwest",
+    "zip code": "20007"
   },
   "1602 village market blvd, leesburg, va 20175": {
     "city": "Leesburg",
@@ -223,6 +455,22 @@
     "street address": "",
     "zip code": ""
   },
+  "1624 q st. nw, washington, dc, 20009, usa": {
+    "city": "Washington",
+    "latitude": "38.91099",
+    "longitude": "-77.03812",
+    "state": "District of Columbia",
+    "street address": "1624 Q Street Northwest",
+    "zip code": "20009"
+  },
+  "1624 u st. nw, washington, dc, 20009, usa": {
+    "city": "Washington",
+    "latitude": "38.91680",
+    "longitude": "-77.03790",
+    "state": "District of Columbia",
+    "street address": "1624 U Street Northwest",
+    "zip code": "20009"
+  },
   "17 n king st, leesburg, va 20176": {
     "city": "Leesburg",
     "latitude": "39.11605",
@@ -231,6 +479,54 @@
     "street address": "17 North King Street",
     "zip code": "20176"
   },
+  "1775 columbia rd. nw, washington, dc, 20009, usa": {
+    "city": "Washington",
+    "latitude": "38.92336",
+    "longitude": "-77.04195",
+    "state": "District of Columbia",
+    "street address": "1775 Columbia Road Northwest",
+    "zip code": "20009"
+  },
+  "1805 18th st. nw, washington, dc, 20009, usa": {
+    "city": "Washington",
+    "latitude": "38.91434",
+    "longitude": "-77.04156",
+    "state": "District of Columbia",
+    "street address": "1805 18th Street Northwest",
+    "zip code": "20009"
+  },
+  "1822 1st st. nw, washington, dc, 20001, usa": {
+    "city": "Washington",
+    "latitude": "38.91498",
+    "longitude": "-77.01234",
+    "state": "District of Columbia",
+    "street address": "1822 1st Street Northwest",
+    "zip code": "20001"
+  },
+  "1827 adams mill rd. nw, washington, dc, 20009, usa": {
+    "city": "Washington",
+    "latitude": "38.92345",
+    "longitude": "-77.04315",
+    "state": "District of Columbia",
+    "street address": "1827 Adams Mill Road Northwest",
+    "zip code": "20009"
+  },
+  "1834 columbia rd. nw, washington, dc, 20009, usa": {
+    "city": "Washington",
+    "latitude": "38.92173",
+    "longitude": "-77.04316",
+    "state": "District of Columbia",
+    "street address": "1834 Columbia Road Northwest",
+    "zip code": "20009"
+  },
+  "1847 columbia rd. nw, washington, dc, 20009, usa": {
+    "city": "Washington",
+    "latitude": "38.92130",
+    "longitude": "-77.04383",
+    "state": "District of Columbia",
+    "street address": "1847 Columbia Road Northwest",
+    "zip code": "20009"
+  },
   "18868 harmony church road, leesburg, va 20175": {
     "city": "",
     "latitude": "",
@@ -238,6 +534,22 @@
     "state": "",
     "street address": "",
     "zip code": ""
+  },
+  "1904 14th st. nw, washington, dc, 20009, usa": {
+    "city": "Washington",
+    "latitude": "38.91580",
+    "longitude": "-77.03206",
+    "state": "District of Columbia",
+    "street address": "1904 14th Street Northwest",
+    "zip code": "20009"
+  },
+  "1906 14th st. nw, washington, dc, 20009, usa": {
+    "city": "Washington",
+    "latitude": "38.91576",
+    "longitude": "-77.03219",
+    "state": "District of Columbia",
+    "street address": "1906 14th Street Northwest",
+    "zip code": "20009"
   },
   "19286 promenade drive, leesburg, va 20176": {
     "city": "",
@@ -279,6 +591,14 @@
     "street address": "19385 Promenade Drive",
     "zip code": "20176"
   },
+  "1940 n st. nw, washington, dc, 20036, usa": {
+    "city": "Washington",
+    "latitude": "38.90716",
+    "longitude": "-77.04406",
+    "state": "District of Columbia",
+    "street address": "1940 N Street Northwest",
+    "zip code": "20036"
+  },
   "198 n 21st st, purcellville, va 20132": {
     "city": "Purcellville",
     "latitude": "39.13834",
@@ -319,6 +639,38 @@
     "street address": "200 Fort Evans Road Northeast",
     "zip code": "20176"
   },
+  "200 massachusetts ave. nw, ste. 100, washington, dc, 20001, usa": {
+    "city": "Washington",
+    "latitude": "38.89896",
+    "longitude": "-77.01404",
+    "state": "District of Columbia",
+    "street address": "200 Massachusetts Avenue Northwest",
+    "zip code": "20001"
+  },
+  "200 massachusetts ave. nw, ste.150, washington, dc, 20001, usa": {
+    "city": "Washington",
+    "latitude": "38.89896",
+    "longitude": "-77.01404",
+    "state": "District of Columbia",
+    "street address": "200 Massachusetts Avenue Northwest",
+    "zip code": "20001"
+  },
+  "200 upshur st. nw, washington, dc, 20011, usa": {
+    "city": "Washington",
+    "latitude": "38.94213",
+    "longitude": "-77.01384",
+    "state": "District of Columbia",
+    "street address": "200 Upshur Street Northwest",
+    "zip code": "20011"
+  },
+  "2002 p st. nw, washington, dc, 20036, usa": {
+    "city": "Washington",
+    "latitude": "38.90939",
+    "longitude": "-77.04525",
+    "state": "District of Columbia",
+    "street address": "2002 P Street Northwest",
+    "zip code": "20036"
+  },
   "20050 ashbrook commons plz, ashburn, va 20147": {
     "city": "Ashburn",
     "latitude": "39.06222",
@@ -358,6 +710,22 @@
     "state": "Virginia",
     "street address": "20120 Lakeview Center Plaza",
     "zip code": "20147"
+  },
+  "2017 14th st. nw, washington, dc, 20009, usa": {
+    "city": "Washington",
+    "latitude": "38.91764",
+    "longitude": "-77.03162",
+    "state": "District of Columbia",
+    "street address": "2017 14th Street Northwest",
+    "zip code": "20009"
+  },
+  "2029 p st. nw, washington, dc, 20036, usa": {
+    "city": "Washington",
+    "latitude": "38.90983",
+    "longitude": "-77.04625",
+    "state": "District of Columbia",
+    "street address": "2029 P Street Northwest",
+    "zip code": "20036"
   },
   "203 harrison st, leesburg, va 20175": {
     "city": "Leesburg",
@@ -471,6 +839,14 @@
     "street address": "211 Gibson Street Northwest",
     "zip code": "20176"
   },
+  "2132 florida ave. nw, washington, dc, 20008, usa": {
+    "city": "",
+    "latitude": "",
+    "longitude": "",
+    "state": "",
+    "street address": "",
+    "zip code": ""
+  },
   "21385 epicerie plaza ste 150 suite 150, sterling, va 20164": {
     "city": "Sterling",
     "latitude": "39.02428",
@@ -535,6 +911,14 @@
     "street address": "22034 Shaw Road",
     "zip code": "20164"
   },
+  "2208 14th st. nw, washington, dc, 20009, usa": {
+    "city": "Washington",
+    "latitude": "38.91954",
+    "longitude": "-77.03221",
+    "state": "District of Columbia",
+    "street address": "2208 14th Street Northwest",
+    "zip code": "20009"
+  },
   "2260 hunters woods plaza suite d, reston, va 20191": {
     "city": "Reston",
     "latitude": "38.93677",
@@ -542,6 +926,14 @@
     "state": "Virginia",
     "street address": "2260 Hunters Woods Plaza",
     "zip code": "20191"
+  },
+  "2275 l st. nw, washington, dc, 20037, usa": {
+    "city": "Washington",
+    "latitude": "38.90396",
+    "longitude": "-77.04979",
+    "state": "District of Columbia",
+    "street address": "2275 L Street Northwest",
+    "zip code": "20037"
   },
   "22855 brambleton plaza suite 108, brambleton, va 20148": {
     "city": "Brambleton",
@@ -583,6 +975,30 @@
     "street address": "22865 Brambleton Plaza",
     "zip code": "20146"
   },
+  "2317 calvert st. nw, washington, dc, 20008, usa": {
+    "city": "Washington",
+    "latitude": "38.92371",
+    "longitude": "-77.05225",
+    "state": "District of Columbia",
+    "street address": "2317 Calvert Street Northwest",
+    "zip code": "20008"
+  },
+  "2404 wisconsin ave. nw, washington, dc, 20007, usa": {
+    "city": "Washington",
+    "latitude": "38.92128",
+    "longitude": "-77.07242",
+    "state": "District of Columbia",
+    "street address": "2404 Wisconsin Avenue Northwest",
+    "zip code": "20007"
+  },
+  "2420 18th st. nw, washington, dc, 20009, usa": {
+    "city": "Washington",
+    "latitude": "38.92132",
+    "longitude": "-77.04245",
+    "state": "District of Columbia",
+    "street address": "2420 18th Street Northwest",
+    "zip code": "20009"
+  },
   "24205 james monroe highway, aldie, va 20105": {
     "city": "Aldie",
     "latitude": "38.94853",
@@ -590,6 +1006,14 @@
     "state": "Virginia",
     "street address": "24205 James Monroe Highway",
     "zip code": "20105"
+  },
+  "2436 14th st. nw, washington, dc, 20009, usa": {
+    "city": "Washington",
+    "latitude": "38.92149",
+    "longitude": "-77.03217",
+    "state": "District of Columbia",
+    "street address": "2436 14th Street Northwest",
+    "zip code": "20009"
   },
   "24431 stone springs blvd, sterling, va 20166": {
     "city": "Arcola",
@@ -599,6 +1023,14 @@
     "street address": "24431 Stone Springs Boulevard",
     "zip code": "20166"
   },
+  "250 k st. ne, washington, dc, 20002, usa": {
+    "city": "Washington",
+    "latitude": "38.89510",
+    "longitude": "-77.03638",
+    "state": "District of Columbia",
+    "street address": "",
+    "zip code": ""
+  },
   "251 n 21st st, purcellville, va 20132": {
     "city": "Purcellville",
     "latitude": "39.13925",
@@ -606,6 +1038,14 @@
     "state": "Virginia",
     "street address": "251 North 21st Street",
     "zip code": "20132"
+  },
+  "2622 p st. nw, washington, dc, 20007, usa": {
+    "city": "Washington",
+    "latitude": "38.90925",
+    "longitude": "-77.05549",
+    "state": "District of Columbia",
+    "street address": "2622 P Street Northwest",
+    "zip code": "20007"
   },
   "2c loudoun st sw, leesburg, va 20175": {
     "city": "Leesburg",
@@ -631,6 +1071,22 @@
     "street address": "302 Industrial Court Southeast",
     "zip code": "20175"
   },
+  "3050 k st. nw, ste. 101, washington, dc, 20007, usa": {
+    "city": "Washington",
+    "latitude": "38.90167",
+    "longitude": "-77.06096",
+    "state": "District of Columbia",
+    "street address": "3050 K Street Northwest",
+    "zip code": "20007"
+  },
+  "3054 mount pleasant st. nw, washington, dc, 20009, usa": {
+    "city": "Washington",
+    "latitude": "38.92825",
+    "longitude": "-77.03739",
+    "state": "District of Columbia",
+    "street address": "3054 Mount Pleasant Street Northwest",
+    "zip code": "20009"
+  },
   "3075 centreville rd, herndon, va 20171": {
     "city": "Herndon",
     "latitude": "38.92196",
@@ -654,6 +1110,62 @@
     "state": "Virginia",
     "street address": "308 Kellys Ford Plaza Southeast",
     "zip code": "20175"
+  },
+  "309 middle st., washington, va, 22747, usa": {
+    "city": "Washington",
+    "latitude": "38.71348",
+    "longitude": "-78.15943",
+    "state": "Virginia",
+    "street address": "Middle Street",
+    "zip code": "22747"
+  },
+  "3211 mt. pleasant st. nw, washington, dc, 20010, usa": {
+    "city": "Washington",
+    "latitude": "38.93152",
+    "longitude": "-77.03822",
+    "state": "District of Columbia",
+    "street address": "3211 Mount Pleasant Street Northwest",
+    "zip code": "20010"
+  },
+  "3221 mt. pleasant st. nw, washington, dc, 20010, usa": {
+    "city": "Washington",
+    "latitude": "38.93183",
+    "longitude": "-77.03829",
+    "state": "District of Columbia",
+    "street address": "3221 Mount Pleasant Street Northwest",
+    "zip code": "20010"
+  },
+  "325 morse st. ne, washington, dc, 20002, usa": {
+    "city": "Washington",
+    "latitude": "38.90793",
+    "longitude": "-77.00035",
+    "state": "District of Columbia",
+    "street address": "325 Morse Street Northeast",
+    "zip code": "20002"
+  },
+  "3311 connecticut ave. nw, washington, dc, 20008, usa": {
+    "city": "Washington",
+    "latitude": "38.93392",
+    "longitude": "-77.05709",
+    "state": "District of Columbia",
+    "street address": "3311 Connecticut Avenue Northwest",
+    "zip code": "20008"
+  },
+  "3410 11th st. nw, washington, dc, 20010, usa": {
+    "city": "Washington",
+    "latitude": "38.93216",
+    "longitude": "-77.02857",
+    "state": "District of Columbia",
+    "street address": "3410 11th Street Northwest",
+    "zip code": "20010"
+  },
+  "3462 14th st. nw, washington, dc, 20010, usa": {
+    "city": "Washington",
+    "latitude": "38.93291",
+    "longitude": "-77.03301",
+    "state": "District of Columbia",
+    "street address": "3462 14th Street Northwest",
+    "zip code": "20010"
   },
   "35246 harry byrd hwy, round hill, va 20141": {
     "city": "",
@@ -703,6 +1215,14 @@
     "street address": "37098 Charles Town Pike",
     "zip code": "20132"
   },
+  "3710 14th st. nw, washington, dc, 20010, usa": {
+    "city": "Washington",
+    "latitude": "38.93756",
+    "longitude": "-77.03309",
+    "state": "District of Columbia",
+    "street address": "3710 14th Street Northwest",
+    "zip code": "20010"
+  },
   "38 catoctin cir, leesburg, va 20175": {
     "city": "Leesburg",
     "latitude": "39.10717",
@@ -710,6 +1230,14 @@
     "state": "Virginia",
     "street address": "38 Catoctin Circle Southeast",
     "zip code": "20175"
+  },
+  "389 main st., washington, va, 22747, usa": {
+    "city": "Washington",
+    "latitude": "38.71343",
+    "longitude": "-78.16010",
+    "state": "Virginia",
+    "street address": "389 Main Street",
+    "zip code": "22747"
   },
   "39285 little river turnpike, aldie, va 20105": {
     "city": "Aldie",
@@ -727,6 +1255,30 @@
     "street address": "39359 Little River Turnpike",
     "zip code": "20105"
   },
+  "399 morse st. ne, washington, dc, 20002, usa": {
+    "city": "Washington",
+    "latitude": "38.90782",
+    "longitude": "-77.00029",
+    "state": "District of Columbia",
+    "street address": "399 Morse Street Northeast",
+    "zip code": "20002"
+  },
+  "401 7th st. nw, washington, dc, 20004, usa": {
+    "city": "Washington",
+    "latitude": "38.89510",
+    "longitude": "-77.03638",
+    "state": "District of Columbia",
+    "street address": "",
+    "zip code": ""
+  },
+  "403 h st. ne, washington, dc, 20002, usa": {
+    "city": "Washington",
+    "latitude": "38.89510",
+    "longitude": "-77.03638",
+    "state": "District of Columbia",
+    "street address": "",
+    "zip code": ""
+  },
   "41153 little river tpke, aldie, va 20105": {
     "city": "Aldie",
     "latitude": "38.96784",
@@ -734,6 +1286,14 @@
     "state": "Virginia",
     "street address": "Little River Turnpike",
     "zip code": "20117"
+  },
+  "417 morse st. ne, washington, dc, 20002, usa": {
+    "city": "Washington",
+    "latitude": "38.90738",
+    "longitude": "-76.99946",
+    "state": "District of Columbia",
+    "street address": "417 Morse Street Northeast",
+    "zip code": "20002"
   },
   "420 w colonial hwy, hamilton, va 20158": {
     "city": "Hamilton",
@@ -782,6 +1342,22 @@
     "state": "Virginia",
     "street address": "42395 Ryan Road",
     "zip code": "20148"
+  },
+  "425 i st. nw, washington, dc, 20001, usa": {
+    "city": "Washington",
+    "latitude": "38.89510",
+    "longitude": "-77.03638",
+    "state": "District of Columbia",
+    "street address": "",
+    "zip code": ""
+  },
+  "427 11th st. nw, washington, dc, 20004, usa": {
+    "city": "Washington",
+    "latitude": "38.89516",
+    "longitude": "-77.02694",
+    "state": "District of Columbia",
+    "street address": "427 11th Street Northwest",
+    "zip code": "20004"
   },
   "42780 creek view plz 120, ashburn, va 20147": {
     "city": "",
@@ -959,6 +1535,14 @@
     "street address": "44260 Ice Rink Plaza",
     "zip code": "20147"
   },
+  "4445 connecticut ave. nw, washington, dc, 20008, usa": {
+    "city": "Washington",
+    "latitude": "38.94668",
+    "longitude": "-77.06473",
+    "state": "District of Columbia",
+    "street address": "4445 Connecticut Avenue Northwest",
+    "zip code": "20008"
+  },
   "44632 guilford dr, ashburn, va 20147": {
     "city": "Ashburn",
     "latitude": "39.02299",
@@ -998,6 +1582,22 @@
     "state": "Virginia",
     "street address": "44795 Dulles Overlook Drive",
     "zip code": "20147"
+  },
+  "453 k st. nw, washington, dc, 20001, usa": {
+    "city": "Washington",
+    "latitude": "38.89510",
+    "longitude": "-77.03638",
+    "state": "District of Columbia",
+    "street address": "",
+    "zip code": ""
+  },
+  "455 i st. nw, washington, dc, 20001, usa": {
+    "city": "Washington",
+    "latitude": "38.89510",
+    "longitude": "-77.03638",
+    "state": "District of Columbia",
+    "street address": "",
+    "zip code": ""
   },
   "45545 dulles eastern plz, sterling, va 20166": {
     "city": "Sterling",
@@ -1055,6 +1655,30 @@
     "street address": "46839 Maple Leaf Place",
     "zip code": "20164"
   },
+  "480 7th st. nw, washington, dc, 20004, usa": {
+    "city": "Washington",
+    "latitude": "38.89510",
+    "longitude": "-77.03638",
+    "state": "District of Columbia",
+    "street address": "",
+    "zip code": ""
+  },
+  "4822 macarthur blvd. nw, washington, dc, 20007, usa": {
+    "city": "Washington",
+    "latitude": "38.91673",
+    "longitude": "-77.09637",
+    "state": "District of Columbia",
+    "street address": "4822 MacArthur Boulevard Northwest",
+    "zip code": "20007"
+  },
+  "4883 macarthur blvd., washington, dc, 20007, usa": {
+    "city": "Washington",
+    "latitude": "38.91775",
+    "longitude": "-77.09667",
+    "state": "District of Columbia",
+    "street address": "4883 MacArthur Boulevard Northwest",
+    "zip code": "20007"
+  },
   "5 fort evans rd, leesburg, va 20176": {
     "city": "Leesburg",
     "latitude": "39.10704",
@@ -1070,6 +1694,14 @@
     "state": "Virginia",
     "street address": "5 South King Street",
     "zip code": "20175"
+  },
+  "501 florida ave. nw, washington, dc, 20001, usa": {
+    "city": "",
+    "latitude": "",
+    "longitude": "",
+    "state": "",
+    "street address": "",
+    "zip code": ""
   },
   "510 e market st, leesburg, va 20176": {
     "city": "Leesburg",
@@ -1102,6 +1734,14 @@
     "state": "Virginia",
     "street address": "520 Compass Point Plaza",
     "zip code": "20175"
+  },
+  "522 8th st. se, washington, dc, 20003, usa": {
+    "city": "Washington",
+    "latitude": "38.89510",
+    "longitude": "-77.03638",
+    "state": "District of Columbia",
+    "street address": "",
+    "zip code": ""
   },
   "525 e market st suite j, leesburg, va 20176": {
     "city": "Leesburg",
@@ -1151,6 +1791,14 @@
     "street address": "550 East Main Street",
     "zip code": "20132"
   },
+  "5534 connecticut ave., washington, dc, 20015, usa": {
+    "city": "Washington",
+    "latitude": "38.96423",
+    "longitude": "-77.07560",
+    "state": "District of Columbia",
+    "street address": "5534 Connecticut Avenue Northwest",
+    "zip code": "20015"
+  },
   "555 compass pt plz suite 108, leesburg, va 20175": {
     "city": "Leesburg",
     "latitude": "39.08281",
@@ -1166,6 +1814,14 @@
     "state": "Virginia",
     "street address": "565 Compass Point Plaza",
     "zip code": "20175"
+  },
+  "601 pennsylvania ave. nw, washington, dc, 20004, usa": {
+    "city": "Washington",
+    "latitude": "38.89330",
+    "longitude": "-77.02050",
+    "state": "District of Columbia",
+    "street address": "601 Pennsylvania Avenue Northwest",
+    "zip code": "20004"
   },
   "609 e main st, purcellville, va 20132": {
     "city": "Purcellville",
@@ -1183,6 +1839,22 @@
     "street address": "East Main Street",
     "zip code": "20132"
   },
+  "610 water st. sw, washington, dc, 20024, usa": {
+    "city": "Washington",
+    "latitude": "38.87598",
+    "longitude": "-77.02116",
+    "state": "District of Columbia",
+    "street address": "610 Water Street Southwest",
+    "zip code": "20024"
+  },
+  "611 i st. nw, washington, dc, 20001, usa": {
+    "city": "Washington",
+    "latitude": "38.89510",
+    "longitude": "-77.03638",
+    "state": "District of Columbia",
+    "street address": "",
+    "zip code": ""
+  },
   "620 w main st, purcellville, va 20132": {
     "city": "Purcellville",
     "latitude": "39.13692",
@@ -1190,6 +1862,22 @@
     "state": "Virginia",
     "street address": "620 West Main Street",
     "zip code": "20132"
+  },
+  "633 d st. nw, washington, dc, 20004, usa": {
+    "city": "Washington",
+    "latitude": "38.89510",
+    "longitude": "-77.03638",
+    "state": "District of Columbia",
+    "street address": "",
+    "zip code": ""
+  },
+  "640 l st. nw, washington, dc, 20001, usa": {
+    "city": "Washington",
+    "latitude": "38.89510",
+    "longitude": "-77.03638",
+    "state": "District of Columbia",
+    "street address": "",
+    "zip code": ""
   },
   "7 w market st, leesburg, va 20176": {
     "city": "Leesburg",
@@ -1207,6 +1895,38 @@
     "street address": "700 Fieldstone Drive Northeast",
     "zip code": "20176"
   },
+  "701 9th st. nw, washington, dc, 20001, usa": {
+    "city": "Washington",
+    "latitude": "38.89510",
+    "longitude": "-77.03638",
+    "state": "District of Columbia",
+    "street address": "",
+    "zip code": ""
+  },
+  "715 8th st. se, washington, dc, 20003, usa": {
+    "city": "Washington",
+    "latitude": "38.89510",
+    "longitude": "-77.03638",
+    "state": "District of Columbia",
+    "street address": "",
+    "zip code": ""
+  },
+  "717 8th st. se, washington, dc, 20003, usa": {
+    "city": "Washington",
+    "latitude": "38.89510",
+    "longitude": "-77.03638",
+    "state": "District of Columbia",
+    "street address": "",
+    "zip code": ""
+  },
+  "732 maryland ave. ne, washington, dc, 20002, usa": {
+    "city": "Washington",
+    "latitude": "38.89567",
+    "longitude": "-76.99519",
+    "state": "District of Columbia",
+    "street address": "732 Maryland Avenue Northeast",
+    "zip code": "20002"
+  },
   "752a walker rd, great falls, va 22066": {
     "city": "Great Falls",
     "latitude": "39.02708",
@@ -1214,6 +1934,14 @@
     "state": "Virginia",
     "street address": "Walker Road",
     "zip code": "22066"
+  },
+  "791 wharf st. sw, washington, dc, 20024, usa": {
+    "city": "Washington",
+    "latitude": "38.87899",
+    "longitude": "-77.02468",
+    "state": "District of Columbia",
+    "street address": "791 Wharf Street Southwest",
+    "zip code": "20024"
   },
   "8 fort evans road, leesburg, va 20176": {
     "city": "Leesburg",
@@ -1223,6 +1951,46 @@
     "street address": "8 Fort Evans Road Northeast",
     "zip code": "20176"
   },
+  "804 v st. nw, washington, dc, 20001, usa": {
+    "city": "Washington",
+    "latitude": "38.89510",
+    "longitude": "-77.03638",
+    "state": "District of Columbia",
+    "street address": "",
+    "zip code": ""
+  },
+  "809 upshur st. nw, washington, dc, 20011, usa": {
+    "city": "Washington",
+    "latitude": "38.94207",
+    "longitude": "-77.02384",
+    "state": "District of Columbia",
+    "street address": "809 Upshur Street Northwest",
+    "zip code": "20011"
+  },
+  "815 connecticut ave. nw, washington, dc, 20006, usa": {
+    "city": "Washington",
+    "latitude": "38.90064",
+    "longitude": "-77.03786",
+    "state": "District of Columbia",
+    "street address": "815 Connecticut Avenue Northwest",
+    "zip code": "20006"
+  },
+  "845 upshur st. nw, washington, dc, 20011, usa": {
+    "city": "Washington",
+    "latitude": "38.94204",
+    "longitude": "-77.02468",
+    "state": "District of Columbia",
+    "street address": "845 Upshur Street Northwest",
+    "zip code": "20011"
+  },
+  "855 e st. nw, washington, dc, 20004, usa": {
+    "city": "Washington",
+    "latitude": "38.89510",
+    "longitude": "-77.03638",
+    "state": "District of Columbia",
+    "street address": "",
+    "zip code": ""
+  },
   "9 h catoctin cir, leesburg, va 20175": {
     "city": "Leesburg",
     "latitude": "39.10748",
@@ -1230,6 +1998,62 @@
     "state": "Virginia",
     "street address": "Catoctin Circle Southeast",
     "zip code": "20175"
+  },
+  "900 f st. nw, washington, dc, 20004, usa": {
+    "city": "Washington",
+    "latitude": "38.89510",
+    "longitude": "-77.03638",
+    "state": "District of Columbia",
+    "street address": "",
+    "zip code": ""
+  },
+  "901 4th st. nw, washington, dc, 20001, usa": {
+    "city": "Washington",
+    "latitude": "38.89510",
+    "longitude": "-77.03638",
+    "state": "District of Columbia",
+    "street address": "",
+    "zip code": ""
+  },
+  "920 blagden alley nw, washington, dc, 20001, usa": {
+    "city": "Washington",
+    "latitude": "38.90655",
+    "longitude": "-77.02475",
+    "state": "District of Columbia",
+    "street address": "920 Blagden Alley Northwest",
+    "zip code": "20001"
+  },
+  "921 pennsylvania ave. se, washington, dc, 20003, usa": {
+    "city": "Washington",
+    "latitude": "38.88302",
+    "longitude": "-76.99313",
+    "state": "District of Columbia",
+    "street address": "921 Pennsylvania Avenue Southeast",
+    "zip code": "20003"
+  },
+  "922 n. st. nw, washington, dc, 20001, usa": {
+    "city": "Washington",
+    "latitude": "38.89510",
+    "longitude": "-77.03638",
+    "state": "District of Columbia",
+    "street address": "",
+    "zip code": ""
+  },
+  "927 f st. nw, washington, dc, 20004, usa": {
+    "city": "Washington",
+    "latitude": "38.89510",
+    "longitude": "-77.03638",
+    "state": "District of Columbia",
+    "street address": "",
+    "zip code": ""
+  },
+  "931 h st. nw, washington, dc, 20001, usa": {
+    "city": "Washington",
+    "latitude": "38.89510",
+    "longitude": "-77.03638",
+    "state": "District of Columbia",
+    "street address": "",
+    "zip code": ""
   },
   "955 edward's ferry road leesburg, va 20176": {
     "city": "",
@@ -1270,5 +2094,37 @@
     "state": "Virginia",
     "street address": "",
     "zip code": ""
+  },
+  "park hyatt hotel,1201 24th st. nw, washington, dc, 20037, usa": {
+    "city": "Washington",
+    "latitude": "38.90580",
+    "longitude": "-77.05109",
+    "state": "District of Columbia",
+    "street address": "1201 24th Street Northwest",
+    "zip code": "20037"
+  },
+  "salamander hotel,1330 maryland ave. sw, washington, dc, 20024, usa": {
+    "city": "",
+    "latitude": "",
+    "longitude": "",
+    "state": "",
+    "street address": "",
+    "zip code": ""
+  },
+  "the dupont circle hotel, 1500 new hampshire ave. nw, washington, dc, 20036, usa": {
+    "city": "",
+    "latitude": "",
+    "longitude": "",
+    "state": "",
+    "street address": "",
+    "zip code": ""
+  },
+  "waldorf astoria,1100 pennsylvania ave. nw, washington, dc, 20004, usa": {
+    "city": "Washington",
+    "latitude": "38.89412",
+    "longitude": "-77.02756",
+    "state": "District of Columbia",
+    "street address": "1100 Pennsylvania Avenue Northwest",
+    "zip code": "20004"
   }
 }
