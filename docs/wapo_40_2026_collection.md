@@ -1,0 +1,23 @@
+# Washington Post: 40 Best Restaurants in and around D.C., 2026
+
+Source: https://www.washingtonpost.com/food/interactive/best-dc-restaurants/
+
+Published and collected October 14, 2026. This is Elazar Sontag’s ranked 2026 dining guide, not the 2025 guide or the separate 40 essential dishes list. There are 40 rows with published `position` values No. 1 through No. 40. Albi is No. 1, Maison Bar à Vins No. 2, and Cane No. 40. Only the location specified by the guide is included for each selection.
+
+The CSV follows the existing `restaurant_name`, address, latitude, longitude, phone, website, cuisine, price, seven daily `*_hours`, and narrative conventions. Rank, neighborhood, price basis, collection dates, source links, and explanatory notes are included. `hours_type` is opening; schedules are not promotional happy-hour windows. Missing phone/website/hours fields are empty strings, never invented defaults. No Michelin star column is inferred from membership in this guide.
+
+The Post’s price bands describe dinner for two excluding drinks, dessert, and tip: $ below $60; $$ $61–$100; $$$ above $100. They are not directly comparable to price symbols in the other guides. The exact published bands and their basis are preserved.
+
+All 40 rows have coordinates, 32 have published phone numbers, and 39 have websites. Twenty-nine have complete seven-day schedules; the remaining eleven have partial or unavailable ranges. Gemini’s published phone accepts text messages only, recorded in `phone_notes`. Several venues explicitly operate without a published phone, so old Michelin or third-party numbers are withheld. Saints Paradise Cafeteria has no published website.
+
+Current official venue pages, dedicated contact/location pages, and FAQs were checked. Secondary schedules are clearly identified in `hours_source_url` and `hours_notes`. Bar Del Monte uses Michelin hours corroborated by Waze. Chaatwala uses Restaurantji hours corroborated by Waze and Courtesy India. 2 Amys uses a current secondary schedule corroborated by a Google-derived listing. Truong Tien uses the Eden Center tenant-specific page, not mall-wide hours.
+
+Unknown closing times remain blank. This applies to Baan Mae, Oyster Oyster, Lutèce, Caruso’s Grocery, Jônt, and Omakase @ Barracks Row, which publish door-opening, last-seating, or fixed reservation times. Obelisk’s service days conflict and its structured hours contain zero-length intervals; these are not treated as 24-hour operation. Eatopia Eatery’s secondary schedules conflict, so its opening intervals are withheld. Menya Hosaki’s current visible schedule disagrees with stale structured Saturday hours. Albi’s homepage and FAQ disagree about Tuesday, which remains unknown. Isla’s Sunday is unspecified. See individual row notes for all limitations.
+
+For Gemini x Happy Ice Cream, daily columns include the wine shop and ice cream operation; dinner service is distinguished in notes. Maison, La’ Shukran, Eebee’s, and Cana have venue/bar hours that may extend beyond food service. Tapori uses kitchen availability because its bar closing time conflicts. Manifest Bread’s expanded homepage hours include bakery and evening restaurant service, with the older contact-page conflict noted. 2Fifty’s separate evening trailer is excluded from the main restaurant schedule. Sold-out service and holidays may shorten posted schedules.
+
+Coordinates are reused from reviewed records at the same named street address, taken from official map links/structured data, or obtained from exact house-number and street matches in OpenStreetMap/Nominatim. Matched addresses and source URLs are retained. Building-level points can identify another tenant and need not be restaurant entrances. Eatopia is pinned to the shared Ellington building at 1301 U Street NW, with a suite/entrance limitation noted. Caruso’s official map link refers to its building near an alternate Pennsylvania Avenue corner address. Its visible/article address on 14th Street is retained. Chaatwala uses an exact address match instead of a differing approximate point in its website metadata.
+
+The file is UTF-8 with a BOM for Excel, Unicode NFC, quoted fields, and CRLF lines. Accented names such as Maison Bar à Vins, Lutèce, Jônt, and La’ Shukran are preserved. Narratives are original factual venue summaries, labeled by `narrative_type`, with links to their sources; they are not copies of the Post’s review prose.
+
+To rebuild offline: `python scripts/import_wapo40.py`. After checking a venue’s links, update `docs/wapo_40_2026_reviewed.json` and run the importer. It validates all 40 ranks, required fields, phones, coordinate pairs, and hour formatting. Rebuilding does not refresh changing business hours automatically.
