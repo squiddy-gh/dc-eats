@@ -1,6 +1,6 @@
 # DC Eats map
 
-Serve this directory with `python -m http.server 8000`, then open `http://localhost:8000/`. The static app reads all seven CSVs directly from `data/`.
+Serve this directory with `python -m http.server 8000`, then open `http://localhost:8000/`. The static app reads the configured CSVs directly from `data/`.
 
 Use **List** to select All lists or one dining guide. Filters reflect published fields: cuisine where present, Michelin stars (including zero-star selections), and Loudoun category and award. Search matches names, addresses, and dishes. Clear filters keeps the selected list; View results fits the map to current matches.
 
@@ -16,9 +16,9 @@ Run logic tests with `node --test tests/map.test.mjs` (Node 22.7 or newer).
 
 ## Trial deployment with GitHub Pages
 
-The workflow in `.github/workflows/pages-trial.yml` deploys only when you manually run it. It tests the map and CSV data, then publishes the app assets and seven restaurant CSVs. Research scripts, notes, and geocoding caches are excluded.
+The workflow in `.github/workflows/pages-trial.yml` deploys only when you manually run it. It tests the map and CSV data, then publishes the app assets and configured restaurant CSVs. Research scripts, notes, and geocoding caches are excluded.
 
-1. Commit and push the workflow, `scripts/build_pages.py`, `tests/map.test.mjs`, and the current app and all seven CSVs to `main`. Include `data/michelin_dc_area_2026.csv` if it has not yet been committed.
+1. Commit and push the workflow, `scripts/build_pages.py`, `tests/map.test.mjs`, and the current app and the configured CSVs to `main`. Include `data/michelin_dc_area_2026.csv` if it has not yet been committed.
 2. On GitHub, open **Settings → Pages** and choose **GitHub Actions** as the publishing source. See [GitHub's publishing-source instructions](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 3. Open **Actions → Trial deployment to GitHub Pages → Run workflow**, choose `main`, and run it.
 4. When it succeeds, open the URL shown by the deployment. The expected project address is https://squiddy-gh.github.io/dc-eats/.
@@ -32,3 +32,7 @@ Best of NoVA 2026 is included in the map and Pages package. Its category and Win
 NoVA Happy Hours 2026 uses happy-hour offer times for its daily hours. Select it to filter by region and “Happy hour now.” Popups distinguish food/drink restrictions and link both the business website and menu. See [collection notes](docs/happy_hours_2026_collection.md).
 
 NoVA Top 50 2025 includes the magazine’s ten numbered ranks and forty unranked selections, with cuisine filters and highlighted “Eat this” recommendations above the popup narrative. Historical closures and private-events-only venues are labeled and excluded from Open now. See [collection notes](docs/top50_2025_collection.md).
+
+## Adding or removing dining guides
+
+Edit **`guides.json`** as the single source of truth for the map and GitHub Pages package. Each entry needs a unique `id`, a CSV `file` under `data/`, a display `label`, a pin `color`, and an `icon`. Add the CSV to `data/` before deploying. To remove a guide, remove its entry; its CSV can remain in the repository without being published. The guide menu, legend, guide count, and packaged CSVs update automatically. Run `node --test tests/map.test.mjs` and the manual Pages workflow to publish changes. The workflow does **not** run on push alone.

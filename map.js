@@ -1,12 +1,5 @@
-export const sources = [
-  { id: 'loudoun', file: 'data/best_of_loudoun.csv', label: 'Best of Loudoun', color: '#bb4939', icon: '🏆' },
-  { id: 'cheap', file: 'data/washingtonian_best_cheap_eats_2026.csv', label: 'Washingtonian Cheap Eats', color: '#236b91', icon: '🍴' },
-  { id: 'post', file: 'data/washington_post_40_essential_dc_dishes_2026.csv', label: 'Washington Post Essential Dishes', color: '#7852a0', icon: '◉' },
-  { id: 'michelin', file: 'data/michelin_dc_area_2026.csv', label: 'Michelin Guide', color: '#b12e53', icon: 'M' },
-  { id: 'nova', file: 'data/northernvamag_best_of_nova_2026.csv', label: 'Best of NoVA 2026', color: '#27805c', icon: 'N' },
-  { id: 'happy', file: 'data/nothernvamag_great_happy_hours_2026.csv', label: 'NoVA Happy Hours 2026', color: '#a66519', icon: '🍸🍴' },
-  { id: 'top50', file: 'data/northernvamag_50_best_restaurants_2025.csv', label: 'NoVA Top 50 2025', color: '#526b30', icon: '50' },
-];
+import guideConfig from './guides.json' with { type: 'json' };
+export const sources = guideConfig.sources;
 export const days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday'];
 export function parseCsv(text) {
   const rows = []; let row = [], field = '', quoted = false;
@@ -134,6 +127,8 @@ function markerIcon(g) {
     html: `<span class="map-pin${p.sourceId === 'happy' ? ' happy-pin' : ''}${new Set(g.entries.map(e => e.sourceId)).size > 1 ? ' multiple' : ''}" style="--pin-color:${s.color}"><span>${starred ? '★' : s.icon}</span>${starred ? `<b class="star-count">${starred.stars}</b>` : ''}</span>` });
 }
 export async function loadMap() {
+  const guideCount = document.getElementById('guide-count');
+  if (guideCount) guideCount.textContent = `${sources.length} local guides`;
   const status = document.getElementById('status'), notice = document.getElementById('notice');
   if (typeof L === 'undefined') { status.textContent = 'The map could not load. Check your connection and reload.'; return; }
   const map = L.map('map', { scrollWheelZoom: true }).setView([38.92, -77.2], 10);
