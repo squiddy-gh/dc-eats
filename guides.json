@@ -1,0 +1,60 @@
+{
+  "sources": [
+    {
+      "id": "loudoun",
+      "file": "data/best_of_loudoun.csv",
+      "label": "Best of Loudoun",
+      "color": "#bb4939",
+      "icon": "🏆"
+    },
+    {
+      "id": "cheap",
+      "file": "data/washingtonian_best_cheap_eats_2026.csv",
+      "label": "Washingtonian Cheap Eats",
+      "color": "#236b91",
+      "icon": "🍴"
+    },
+    {
+      "id": "post",
+      "file": "data/washington_post_40_essential_dc_dishes_2026.csv",
+      "label": "Washington Post Essential Dishes",
+      "color": "#7852a0",
+      "icon": "◉"
+    },
+    {
+      "id": "michelin",
+      "file": "data/michelin_dc_area_2026.csv",
+      "label": "Michelin Guide",
+      "color": "#b12e53",
+      "icon": "M"
+    },
+    {
+      "id": "nova",
+      "file": "data/northernvamag_best_of_nova_2026.csv",
+      "label": "Best of NoVA 2026",
+      "color": "#27805c",
+      "icon": "N"
+    },
+    {
+      "id": "happy",
+      "file": "data/nothernvamag_great_happy_hours_2026.csv",
+      "label": "NoVA Happy Hours 2026",
+      "color": "#a66519",
+      "icon": "🍸🍴"
+    },
+    {
+      "id": "top50",
+      "file": "data/northernvamag_50_best_restaurants_2025.csv",
+      "label": "NoVA Top 50 2025",
+      "color": "#526b30",
+      "icon": "50"
+    },
+    {
+      "id": "wapo40",
+      "file": "data/wapo_40_best_restaurants_dc_2026.csv",
+      "label": "Washington Post 40 Best Restaurants 2026",
+      "color": "#c05a27",
+      "icon": "40"
+    }
+  ]
+}

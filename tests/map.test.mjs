@@ -46,7 +46,7 @@ test('same-location groups retain dishes and suppress only exact duplicates', ()
   assert.equal(groups.length,1); assert.equal(groups[0].entries.length,2);
   assert.match(googleMapsUrl(p),/Caf%C3%A9/);
 });
-test('all seven current datasets load, and every published schedule is understood', () => {
+test('all configured datasets load, and every published schedule is understood', () => {
   for (const source of sources) {
     const rows = parseCsv(readFileSync(new URL(`../${source.file}`,import.meta.url),'utf8'));
     assert.ok(rows.length > 0,source.label);
@@ -106,4 +106,11 @@ test('NoVA Top 50 preserves ranks, branches, cuisine and dish recommendations', 
   p.hours=days.map(()=> '24 hours');
   assert.equal(openingStatus(p,new Date('2026-10-07T23:00:00Z')),'closed');
  }
+});
+
+
+test('guide configuration includes Washington Post 40 and unique IDs/files', () => {
+  assert.ok(sources.some(s => s.id === 'wapo40'));
+  assert.equal(new Set(sources.map(s => s.id)).size, sources.length);
+  assert.equal(new Set(sources.map(s => s.file)).size, sources.length);
 });
