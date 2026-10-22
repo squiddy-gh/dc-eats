@@ -50,6 +50,13 @@
       "icon": "50"
     },
     {
+      "id": "top50-2026",
+      "file": "data/northernvamag_50_best_restaurants_2026.csv",
+      "label": "NoVA Top 50 2026",
+      "color": "#176b9b",
+      "icon": "N"
+    },
+    {
       "id": "wapo40",
       "file": "data/wapo_40_best_restaurants_dc_2026.csv",
       "label": "Washington Post 40 Best Restaurants 2026",
