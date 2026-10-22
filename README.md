@@ -33,6 +33,8 @@ NoVA Happy Hours 2026 uses happy-hour offer times for its daily hours. Select it
 
 NoVA Top 50 2025 includes the magazine’s ten numbered ranks and forty unranked selections, with cuisine filters and highlighted “Eat this” recommendations above the popup narrative. Historical closures and private-events-only venues are labeled and excluded from Open now. See [collection notes](docs/top50_2025_collection.md).
 
+NoVA Top 50 2026 is a separate guide, so the 2025 edition remains available. Its blue `N` pin evokes NoVA and distinguishes it from the olive `50` pin used for 2025; the guide label supplies the year. The CSV contains the published Top 10 ranks, all 50 selections, and 54 mapped locations where the article names multiple branches. See [collection notes](docs/top50_2026_collection.md).
+
 ## Adding or removing dining guides
 
 Edit **`guides.json`** as the single source of truth for the map and GitHub Pages package. Each entry needs a unique `id`, a CSV `file` under `data/`, a display `label`, a pin `color`, and an `icon`. Add the CSV to `data/` before deploying. To remove a guide, remove its entry; its CSV can remain in the repository without being published. The guide menu, legend, guide count, and packaged CSVs update automatically. Run `node --test tests/map.test.mjs` and the manual Pages workflow to publish changes. The workflow does **not** run on push alone.

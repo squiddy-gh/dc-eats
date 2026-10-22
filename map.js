@@ -159,7 +159,7 @@ export async function loadMap() {
     for (const key of ['cuisine', 'category', 'placement', 'stars']) {
       const options = [...new Set(choices[key].filter(Boolean))].sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
       fields[key].replaceChildren(new Option('Any', ''), ...options.map(v => new Option(key === 'stars' ? v === '0' ? '0 · Michelin selected' : `${v} star${v === '1' ? '' : 's'}` : v, v)));
-      document.getElementById(`${key}-field`).hidden = !options.length || (key === 'stars' && selected !== 'michelin') || (['placement', 'category'].includes(key) && !(key === 'category' ? ['loudoun', 'nova', 'happy', 'top50'] : ['loudoun', 'nova']).includes(selected)); fields[key].value = '';
+      document.getElementById(`${key}-field`).hidden = !options.length || (key === 'stars' && selected !== 'michelin') || (['placement', 'category'].includes(key) && !(key === 'category' ? ['loudoun', 'nova', 'happy', 'top50', 'top50-2026'] : ['loudoun', 'nova']).includes(selected)); fields[key].value = '';
     }
   };
   const menu = document.getElementById('list-menu'), button = document.getElementById('list-button');

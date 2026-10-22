@@ -108,6 +108,18 @@ test('NoVA Top 50 preserves ranks, branches, cuisine and dish recommendations', 
  }
 });
 
+test('NoVA Top 50 2026 remains separate from 2025 and preserves the published top ten', () => {
+ const oldSource=sources.find(s=>s.id==='top50'), source=sources.find(s=>s.id==='top50-2026');
+ assert.ok(source); assert.notEqual(source.file,oldSource.file); assert.notEqual(source.icon,oldSource.icon);
+ const rows=parseCsv(readFileSync(new URL(`../${source.file}`,import.meta.url),'utf8'));
+ assert.equal(rows.length,54); assert.equal(new Set(rows.map(r=>r.restaurant_name)).size,50);
+ assert.deepEqual(rows.filter(r=>r.position).map(r=>r.position),Array.from({length:10},(_,i)=>`No. ${i+1}`));
+ assert.equal(rows.find(r=>r.position==='No. 1').restaurant_name,'Harrimans Grill');
+ assert.equal(rows.find(r=>r.position==='No. 10').restaurant_name,'Celebration by Rupa Vira');
+ assert.ok(rows.every(r=>r.eat_this && r.cuisine && r.narrative && r.hours_type==='opening'));
+ for (const name of ['Carbonara','Clarity','Ruthie’s All-Day','Sense of Thai']) assert.equal(rows.filter(r=>r.restaurant_name===name).length,2,name);
+});
+
 
 test('guide configuration includes Washington Post 40 and unique IDs/files', () => {
   assert.ok(sources.some(s => s.id === 'wapo40'));
